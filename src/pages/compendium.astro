@@ -1,0 +1,156 @@
+---
+import Layout from "../components/Layout.astro";
+import { getCollection } from "astro:content";
+
+const entries = (await getCollection("compendium"))
+  .filter((entry) => !entry.data.draft)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const pageTitle = "The People's Compendium";
+const pageDescription =
+  "A collective knowledge base of socialist concepts, movements, and ideas.";
+---
+
+<Layout title={pageTitle} description={pageDescription} showSidebar={false}>
+  <div class="compendium-page">
+    <header class="compendium-header">
+      <h1 class="compendium-title">{pageTitle}</h1>
+      <p class="compendium-description">{pageDescription}</p>
+      <hr class="compendium-rule" />
+    </header>
+
+    <div class="entries-list">
+      {
+        entries.map((entry) => (
+          <article class="entry-item">
+            <h2 class="entry-title">
+              <a href={`/compendium/${entry.slug}`} data-astro-prefetch>
+                {entry.data.title}
+              </a>
+            </h2>
+            <p class="entry-description">{entry.data.description}</p>
+            <a
+              href={`/compendium/${entry.slug}`}
+              data-astro-prefetch
+              class="read-more"
+            >
+              Read More →
+            </a>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .compendium-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .compendium-header {
+    text-align: center;
+    margin-bottom: calc(var(--grid-unit) * 8);
+  }
+
+  .compendium-title {
+    font-family: var(--font-heading-primary);
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+    margin-bottom: calc(var(--grid-unit) * 3);
+  }
+
+  .compendium-description {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--color-text-secondary);
+    margin-bottom: calc(var(--grid-unit) * 4);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .compendium-rule {
+    height: 4px;
+    background-color: var(--color-accent);
+    border: none;
+    width: 120px;
+    margin: 0 auto;
+  }
+
+  .entries-list {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--grid-unit) * 6);
+  }
+
+  .entry-item {
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: calc(var(--grid-unit) * 4);
+  }
+
+  .entry-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .entry-title {
+    font-family: var(--font-heading-secondary);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: calc(var(--grid-unit) * 2);
+  }
+
+  .entry-title a {
+    color: var(--color-text-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .entry-title a:hover,
+  .entry-title a:focus {
+    color: var(--color-accent);
+  }
+
+  .entry-description {
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin-bottom: calc(var(--grid-unit) * 2);
+    font-size: 1.1rem;
+  }
+
+  .read-more {
+    font-family: var(--font-heading-secondary);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+  }
+
+  .read-more:hover,
+  .read-more:focus {
+    color: var(--color-text-primary);
+  }
+
+  @media (max-width: 768px) {
+    .compendium-title {
+      font-size: 2.5rem;
+    }
+
+    .compendium-description {
+      font-size: 1.125rem;
+    }
+
+    .entry-title {
+      font-size: 1.75rem;
+    }
+  }
+</style>

@@ -104,24 +104,23 @@ const currentYear = new Date().getFullYear();
   }
 
   .bmc-button-wrapper {
-    margin-top: calc(var(--grid-unit) * 2);
+    margin-top: calc(var(--grid-unit));
     display: flex;
     align-items: flex-start;
-    max-width: 300px;
   }
 
   .bmc-button {
     display: inline-flex;
     align-items: center;
-    gap: calc(var(--grid-unit) / 2);
+    gap: calc(var(--grid-unit) / 4);
     background-color: var(--color-accent);
     color: var(--color-white);
-    padding: calc(var(--grid-unit) * 0.75) calc(var(--grid-unit) * 1.25);
-    border: 2px solid var(--color-border);
-    border-radius: calc(var(--grid-unit) * 0.75);
+    padding: calc(var(--grid-unit) / 2) calc(var(--grid-unit) * 0.75);
+    border: 1px solid var(--color-border);
+    border-radius: calc(var(--grid-unit) / 2);
     text-decoration: none;
     font-family: var(--font-body);
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     font-weight: 500;
     transition: all 0.2s ease;
   }
@@ -131,12 +130,12 @@ const currentYear = new Date().getFullYear();
     background-color: var(--color-white);
     color: var(--color-accent);
     border-color: var(--color-accent);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   }
 
   .coffee-emoji {
     color: #ffdd00;
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 </style>

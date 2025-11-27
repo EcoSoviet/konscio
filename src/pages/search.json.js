@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 export async function GET() {
   try {
     const posts = await getCollection("dispatches");
+    const compendiumEntries = await getCollection("compendium");
 
     const processedPosts = posts
       .filter((post) => post && post.data && post.data.draft !== true)
@@ -36,12 +37,36 @@ export async function GET() {
           categories: Array.isArray(post.data.categories)
             ? post.data.categories
             : [],
+          type: "dispatch",
         };
       });
 
-    const searchData = processedPosts
-      .filter((item) => item.datePublished !== null)
-      .sort((a, b) => new Date(b.datePublished) - new Date(a.datePublished));
+    const processedCompendium = compendiumEntries
+      .filter((entry) => entry && entry.data && entry.data.draft !== true)
+      .map((entry) => ({
+        title: entry.data.title || "Untitled",
+        url: "/compendium/" + entry.slug,
+        datePublished: null,
+        excerpt: entry.data.description || "",
+        categories: [],
+        type: "compendium",
+      }));
+
+    const searchData = [
+      ...processedPosts.filter((item) => item.datePublished !== null),
+      ...processedCompendium,
+    ].sort((a, b) => {
+      if (a.datePublished && b.datePublished) {
+        return new Date(b.datePublished) - new Date(a.datePublished);
+      }
+      if (a.datePublished && !b.datePublished) {
+        return -1;
+      }
+      if (!a.datePublished && b.datePublished) {
+        return 1;
+      }
+      return a.title.localeCompare(b.title);
+    });
 
     return new Response(JSON.stringify(searchData), {
       headers: { "Content-Type": "application/json" },

@@ -1,0 +1,247 @@
+---
+import Layout from "../../components/Layout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("compendium");
+
+  return entries
+    .filter((entry) => !entry.data.draft)
+    .map((entry) => ({
+      params: { slug: entry.slug },
+      props: { entry },
+    }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<Layout
+  title={entry.data.title}
+  description={entry.data.description}
+  type="article"
+  showSidebar={false}
+>
+  <article class="compendium-entry">
+    <header class="entry-header">
+      <h1 class="entry-title">{entry.data.title}</h1>
+
+      {
+        entry.data.description && (
+          <p class="entry-excerpt">{entry.data.description}</p>
+        )
+      }
+
+      <hr class="monumental-rule" />
+    </header>
+
+    <div class="entry-content">
+      <Content />
+    </div>
+
+    <footer class="entry-footer">
+      <div class="entry-navigation">
+        <a href="/compendium" data-astro-prefetch class="back-to-compendium">
+          ← Back to Compendium
+        </a>
+      </div>
+    </footer>
+  </article>
+</Layout>
+
+<style>
+  .compendium-entry {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .entry-header {
+    margin-bottom: calc(var(--grid-unit) * 6);
+  }
+
+  .entry-title {
+    font-family: var(--font-heading-primary);
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+    margin-bottom: calc(var(--grid-unit) * 3);
+  }
+
+  .entry-excerpt {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: var(--color-text-secondary);
+    font-style: italic;
+    margin: 0;
+  }
+
+  .monumental-rule {
+    height: 6px;
+    background-color: var(--color-accent);
+    border: none;
+    margin: calc(var(--grid-unit) * 4) 0;
+    width: 100%;
+  }
+
+  .entry-content {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin-bottom: calc(var(--grid-unit) * 6);
+  }
+
+  .entry-content :global(h1) {
+    font-family: var(--font-heading-primary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-top: calc(var(--grid-unit) * 6);
+    margin-bottom: calc(var(--grid-unit) * 3);
+  }
+
+  .entry-content :global(h2) {
+    font-family: var(--font-heading-secondary);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    margin-top: calc(var(--grid-unit) * 5);
+    margin-bottom: calc(var(--grid-unit) * 2);
+  }
+
+  .entry-content :global(h3) {
+    font-family: var(--font-heading-secondary);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    margin-top: calc(var(--grid-unit) * 4);
+    margin-bottom: calc(var(--grid-unit) * 2);
+  }
+
+  .entry-content :global(p) {
+    margin-bottom: calc(var(--grid-unit) * 3);
+  }
+
+  .entry-content :global(ul),
+  .entry-content :global(ol) {
+    margin-bottom: calc(var(--grid-unit) * 3);
+    padding-left: calc(var(--grid-unit) * 4);
+  }
+
+  .entry-content :global(li) {
+    margin-bottom: calc(var(--grid-unit));
+  }
+
+  .entry-content :global(blockquote) {
+    border-left: 4px solid var(--color-accent);
+    padding-left: calc(var(--grid-unit) * 3);
+    margin: calc(var(--grid-unit) * 4) 0;
+    font-style: italic;
+    color: var(--color-text-secondary);
+    font-size: 1.25rem;
+  }
+
+  .entry-content :global(a) {
+    color: var(--color-accent);
+    text-decoration: underline;
+    transition: color 0.2s ease;
+  }
+
+  .entry-content :global(a:hover) {
+    color: var(--color-text-primary);
+  }
+
+  .entry-content :global(code) {
+    background-color: var(--color-surface);
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: var(--font-mono);
+    font-size: 0.95em;
+  }
+
+  .entry-content :global(pre) {
+    background-color: var(--color-surface);
+    padding: calc(var(--grid-unit) * 2);
+    border-radius: 4px;
+    overflow-x: auto;
+    margin: calc(var(--grid-unit) * 3) 0;
+  }
+
+  .entry-content :global(pre code) {
+    background: none;
+    padding: 0;
+  }
+
+  .entry-content :global(em) {
+    font-style: italic;
+  }
+
+  .entry-content :global(strong) {
+    font-weight: 700;
+  }
+
+  .entry-footer {
+    margin-top: calc(var(--grid-unit) * 6);
+    padding-top: calc(var(--grid-unit) * 4);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .entry-navigation {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .back-to-compendium {
+    font-family: var(--font-heading-secondary);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-accent);
+    padding: calc(var(--grid-unit)) calc(var(--grid-unit) * 2);
+    border: 2px solid var(--color-accent);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    display: inline-block;
+  }
+
+  .back-to-compendium:hover,
+  .back-to-compendium:focus {
+    background-color: var(--color-accent);
+    color: white;
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    .entry-title {
+      font-size: 2rem;
+    }
+
+    .entry-excerpt {
+      font-size: 1.125rem;
+    }
+
+    .entry-content {
+      font-size: 1rem;
+    }
+
+    .entry-content :global(h1) {
+      font-size: 1.75rem;
+    }
+
+    .entry-content :global(h2) {
+      font-size: 1.5rem;
+    }
+
+    .entry-content :global(h3) {
+      font-size: 1.25rem;
+    }
+
+    .entry-content :global(blockquote) {
+      font-size: 1.125rem;
+    }
+  }
+</style>
