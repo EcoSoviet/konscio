@@ -11,9 +11,9 @@ tags: ["Eco-Socialism", "Decolonisation", "Climate Justice"]
 
 # Manifesto: For People and Planet
 
-Capitalism, colonialism, and climate collapse are not separate crises. They are different faces of one system of domination.
+[Capitalism](/compendium/capitalism), colonialism, and climate collapse are not separate crises. They are different faces of one system of domination.
 
-The same logic that once extracted from the Global South now drives ecological ruin across the planet.
+The same logic that once [extracted](/compendium/extractivism) from the Global South now drives ecological ruin across the planet.
 
 **The Red Soil** exists to challenge that system. It is not a neutral platform. It is a form of critical resistance.
 
@@ -24,7 +24,7 @@ This project is written from South Africa, in solidarity with everyone fighting 
 ## What This Site Stands For
 
 - Eco Socialism: Build a world where the economy sustains life instead of destroying it. Put collective ownership, equality, and ecological balance at the centre.
-- Decolonisation: Dismantle the political, cultural, and economic power structures inherited from empire. Create new ways of living beyond colonial modernity.
+- [Decolonisation](/compendium/decolonisation): Dismantle the political, cultural, and economic power structures inherited from empire. Create new ways of living beyond colonial modernity.
 - Global Solidarity: Connect the struggles of the South and the North. Liberation anywhere relies on justice everywhere.
 - Structural Analysis: Name the root causes, not the symptoms. Oppression and ecological collapse are systemic, not accidental.
 - Collective Power: Real change grows from organised movements and ordinary people acting together. It is not something handed down from above.

@@ -12,7 +12,7 @@ tags:
 
 # COP30: A Summit Captured by Fossil Power
 
-COP30 was presented as the moment the world would confront reality. It was hosted in the Amazon, wrapped in language about planetary urgency, and framed as a turning point for a liveable future. Instead it became the clearest example yet of how climate diplomacy has lost its anchor. The summit admitted almost fifteen hundred fossil fuel lobbyists, more than the delegations of many nations most exposed to climate breakdown. The final declaration avoided the words that matter. It refused to commit to a phase-out of fossil fuels. It refused to name the root of the crisis.
+COP30 was presented as the moment the world would confront reality. It was hosted in the Amazon, wrapped in language about planetary urgency, and framed as a turning point for a liveable future. Instead it became the clearest example yet of how climate diplomacy has lost its anchor. The summit admitted almost fifteen hundred fossil fuel lobbyists, more than the delegations of many nations most exposed to climate breakdown. The final declaration avoided the words that matter. It refused to commit to a phase-out of [fossil fuels](/compendium/extractivism). It refused to name the root of the crisis.
 
 This is not a failure of drafting. It is not a technical hiccup. It is a political decision shaped by the power of an industry that has learned how to write the rules while pretending to follow them.
 
@@ -32,7 +32,7 @@ This reflects how deeply integrated fossil firms remain in the economies and pol
 
 The fight inside COP30 was over a few words: whether the world would commit to phasing out fossil fuels; whether there would be a timeline; whether accountability would be real or symbolic. Science is clear. A rapid decline in fossil fuel use is the only path to a stable climate.
 
-But the fossil lobby and aligned states pushed to dilute the text. They promoted softer language about transitions, pathways, and technologies that might theoretically clean up emissions while allowing extraction to continue. They argued for terms like phase down. They pushed for references to abated fuels. They framed carbon capture and offsets as credible solutions. The final document absorbed this pressure, offering a broad call to transition without defining what must actually end.
+But the fossil lobby and aligned states pushed to dilute the text. They promoted softer language about transitions, pathways, and technologies that might theoretically clean up emissions while allowing [extraction](/compendium/extractivism) to continue. They argued for terms like phase down. They pushed for references to abated fuels. They framed carbon capture and offsets as credible solutions. The final document absorbed this pressure, offering a broad call to transition without defining what must actually end.
 
 The outcome protects the industry. It weakens the science. It leaves vulnerable regions exposed to deeper danger.
 
@@ -96,7 +96,7 @@ These measures confront the economic logic that links fossil expansion, inequali
 
 ## Beyond COP: Where change will come from
 
-If COP30 showed anything, it is that people cannot rely on captured institutions to deliver a just transition. Every major advance in social and ecological rights has come from organised movements, not from elite diplomacy. The forces capable of ending the fossil era are unions, communities resisting extraction, Indigenous defenders, youth movements, scientists, and democratic institutions that treat energy as a public good.
+If COP30 showed anything, it is that people cannot rely on captured institutions to deliver a just transition. Every major advance in social and ecological rights has come from organised movements, not from elite diplomacy. The forces capable of ending the fossil era are unions, communities resisting [extraction](/compendium/extractivism), Indigenous defenders, youth movements, scientists, and democratic institutions that treat energy as a public good.
 
 The summit in the Amazon revealed something important. The future will not be negotiated in rooms crowded with lobbyists. It will be shaped by people who refuse to let their lands, waters, and futures be sacrificed for profit.
 
