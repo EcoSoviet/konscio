@@ -2,177 +2,105 @@
 
 ## Project Overview
 
-Astro-powered static site publishing eco-socialist analysis and decolonial thought from Africa and the Global South. TypeScript codebase with strict content validation, dual licensing (MIT for code, CC0 for content), and performance-first architecture.
+This is an Astro-powered blog focused on eco-socialist analysis and decolonial thought from Africa and the Global South. Built with TypeScript, MDX support, and a mobile-first responsive design.
 
-## Architecture Essentials
+## Architecture & Key Patterns
 
-### Content System (Astro Content Collections)
+### Content System
 
-Two collections in `src/content/config.ts`:
-- **dispatches**: Long-form articles with `dispatchesSchema` (Zod validation in `src/schemas/dispatches.ts`)
-  - Required: `title`, `datePublished`, `excerpt`, `category`, `tags`
-  - Optional: `description`, `author`, `image`, `draft`, `dateModified`
-  - Auto-calculated: `minutesRead` via `plugins/remark-reading-time.ts` (200 wpm default)
-- **compendium**: Glossary entries with simpler `compendiumSchema` (title, description, draft flag)
+- **Posts**: MDX files in `src/content/dispatches/` with strict schema validation via Zod (`src/schemas/dispatches.ts`)
+- **Required frontmatter**: `title`, `datePublished`, `excerpt`, `categories`, `tags` - see `dispatchSchema` for complete structure
+- **Reading time**: Auto-calculated via custom remark plugin (`plugins/remark-reading-time.ts`)
+- **Content collections**: Defined in `src/content/config.ts` using Astro's content API
 
-Access via `getCollection("dispatches")` or `getCollection("compendium")` - see `src/pages/dispatches.astro` for pattern.
+### Configuration
 
-### Routing & Pages
+- **Site config**: Centralized in `src/config.ts` - modify this for site-wide settings, social links, author info
+- **Astro config**: `astro.config.mjs` includes custom plugins for reading time, font optimization (Fontaine), and build optimizations
 
-- **Static generation**: `src/pages/[...slug].astro` pattern for dynamic routes
-- **dispatches**: `src/pages/dispatches/[...slug].astro` renders from collection
-- **Categories**: Auto-generated at `/categories/[category]` from frontmatter
-- **RSS**: `src/pages/rss.xml.js` uses `import.meta.glob` (not `getCollection`) to filter drafts and sort by date
-- **Search**: `src/pages/search.json.js` generates JSON index from both collections
+### Component Patterns
 
-### Component Architecture
+- **Layout hierarchy**: `Layout.astro` → `Header.astro` + `Sidebar.astro` + `Footer.astro`
+- **Props interfaces**: Every component exports TypeScript interfaces (see `Layout.astro` Props pattern)
+- **Scoped CSS**: Components use Astro's scoped styling with CSS variables from `src/styles/variables.css`
+- **Self-hosted fonts**: Via fontsource-variable packages, no external font requests
 
-**Layout hierarchy**: `Layout.astro` (master) → `Header.astro` + `Sidebar.astro` (conditional) + `Footer.astro`
+### Development Workflows
 
-- Every component exports TypeScript `Props` interface (see `Layout.astro` lines 8-20)
-- Sidebar modes: `"dispatches"` or `"compendium"` - controls which content appears
-- Scoped CSS using CSS variables from `src/styles/variables.css`
-- Font imports at top: `@fontsource-variable/oswald`, `work-sans`, `jetbrains-mono`
-
-### Configuration Layers
-
-1. **Site config**: `src/config.ts` - centralized site metadata, author, social links
-2. **Astro config**: `astro.config.mjs` - build settings, plugins, markdown processing
-   - Fontaine plugin prevents layout shift
-   - Asset inlining threshold: 4KB
-   - Remark plugins: `remarkReadingTime`, `remarkGfm`, `remarkSmartypants`
-3. **ESLint**: `eslint.config.mjs` - multi-language linting (JS, TS, Astro, CSS, JSON, YAML, Markdown) with SonarJS, Unicorn, Oxlint
-
-## Critical Developer Workflows
-
-### Pre-commit/PR Checks
+#### Essential Commands
 
 ```bash
-npm run lint   # ESLint + Oxlint auto-fix (dual linter setup)
-npm run check  # TypeScript type checking (astro check)
-npm run test   # Vitest tests in tests/utils/
+npm run dev          # Start dev server (localhost:4321)
+npm run build        # Production build
+npm run check        # TypeScript checking
+npm run lint         # ESLint with auto-fix
+npm run test         # Vitest test suite
+npm run link-check   # Custom link validation
 ```
 
-Always run all three before PRs. Build will fail on type errors or missing frontmatter.
+#### Before Pull Requests
 
-### Development Commands
+Always run: `npm run lint && npm run check && npm run test`
 
-```bash
-npm run dev          # localhost:4321 (Astro dev server)
-npm run build        # Production build to dist/
-npm run preview      # Preview production build locally
-npm run link-check   # Custom script (scripts/link-check.ts) validates external URLs
-```
+#### Testing Strategy
 
-### Testing Strategy
+- **Utility tests**: `tests/utils/` for helper functions like `slugify.ts`
 
-Tests in `tests/utils/` for pure functions only:
-- `slugify.test.ts`: URL slug generation
-- `table-of-contents.test.ts`: TOC extraction
-- `remark-reading-time.test.ts`: Reading time calculation
-- `rss.test.ts`, `search.test.ts`, `link-check.test.ts`
+### Content Creation Workflow
 
-No component tests. Use `vitest --run` (jsdom environment from `vitest.config.ts`).
+#### New Posts
 
-## Content Creation Workflow
+1. Create `.md` or `.mdx` file in `src/content/dispatches/`
+2. Use complete frontmatter schema - missing required fields will fail build
+3. Categories become URL paths (`/categories/[category]`)
+4. Images go in `public/images/` and reference as `/images/filename.webp`
+5. Reading time calculated automatically
 
-### Adding Dispatches
+#### Editorial Guidelines
 
-1. Create `.md` or `.mdx` in `src/content/dispatches/`
-2. Frontmatter must match `dispatchesSchema` exactly - missing required fields = build failure
-3. Images: `public/images/` → reference as `/images/filename.webp`
-4. Slug: Derived from filename via `slugifyPath()` in `src/utils/slugify.ts`
-5. Categories: Single string (not array) - used for URL generation
-6. Reading time: Calculated automatically, stored in `frontmatter.minutesRead`
+- Clear, accessible language (see `CONTRIBUTING.md` for full standards)
+- Focus: eco-socialist analysis, decolonial thought, Global South perspectives
+- Original content in any language welcome (no translations)
+- Proper attribution for external authors
 
-**Editorial standards** (see `EDITORIAL_GUIDELINES.md`):
-- UK English spelling ("organised", "labour")
-- Bold for first mention of "The Red Soil" and key actors
-- Italics for emphasis/calls to action
-- Blockquotes for citations
-- Section dividers: `---` in Markdown
+### Project-Specific Conventions
 
-### Content Submission Paths
+#### File Organization
 
-Two methods documented in `.github/CONTRIBUTING.md`:
-1. Fork + PR (developers)
-2. Email to contact@theredsoil.co.za (writers)
+- **Styles**: Modular CSS in `src/styles/` with variables, typography, utilities pattern
+- **Utils**: Pure functions in `src/utils/` (e.g., `slugify.ts` for URL generation)
+- **Plugins**: Custom Astro/Remark plugins in `plugins/` directory
+- **Types**: TypeScript definitions in `src/types/` and `types/`
 
-Both require editorial review. Attribution always preserved.
+#### Code Style
 
-## Project-Specific Conventions
+- **Dual licensing**: Code (MIT) vs Content (CC0) - see `LICENCE` file
+- **Commit format**: Prefix with `Add:`, `Fix:`, `Update:`, `Remove:`, `Docs:`
+- **Import order**: External packages, then relative imports, then CSS/assets
 
-### File Organization
+#### Performance Optimizations
 
-```
-src/
-├── config.ts              # Single source of truth for site metadata
-├── content/
-│   ├── config.ts          # Collection definitions
-│   ├── dispatches/        # Article MDX files
-│   └── compendium/        # Glossary MD files
-├── schemas/               # Zod validation schemas
-├── components/            # Astro components (.astro)
-├── pages/                 # Routes (includes [...slug].astro patterns)
-├── styles/                # Modular CSS (variables, typography, utilities)
-└── utils/                 # Pure functions (slugify, url, table-of-contents)
-```
+- **Font loading**: Fontaine plugin prevents layout shift
+- **Asset inlining**: 4KB threshold for small assets
+- **Build optimizations**: PurgeCSS, compression, and inlining enabled
+- **Prefetch strategy**: Hover-based prefetching for internal links
 
-### Commit Message Format
+## Common Tasks
 
-Prefix required:
-- `Add:` new features/content
-- `Fix:` bug fixes
-- `Update:` changes to existing features
-- `Remove:` deletions
-- `Docs:` documentation only
+### Adding New Categories
 
-### Licensing
+1. Add to post frontmatter `categories` array
+2. Category pages auto-generated at `/categories/[slug]`
+3. Update navigation if needed in `HeaderNavigation.astro`
 
-**Dual license** (`LICENCE` file):
-- Code (src/, scripts/, etc.): MIT
-- Content (text, images, docs): CC0 1.0 Universal
+### Modifying Site Metadata
 
-Contributions automatically accepted under these terms.
+- Edit `src/config.ts` for author info, social links, site description
+- SEO handled by `SEO.astro` component with structured data
 
-### Performance Patterns
+### Custom Components
 
-- Self-hosted fonts (no external requests)
-- Fontaine plugin prevents CLS
-- PurgeCSS removes unused CSS
-- Compression: gzip, brotli, zstd
-- Prefetch strategy: hover-based for internal links
-- Asset inlining: <4KB files
+- Follow `Layout.astro` pattern: TypeScript interface, scoped styles, semantic HTML
+- Import in pages or other components as needed
 
-## Integration Points
-
-### RSS Feed Generation
-
-`src/pages/rss.xml.js` uses `import.meta.glob` (not `getCollection`) to:
-1. Filter drafts (`frontmatter.draft !== true`)
-2. Filter future-dated posts (`datePublished <= Date.now()`)
-3. Sort by `datePublished` descending
-4. Generate slug from filename
-
-**Important**: RSS uses different loading pattern than other pages - don't refactor to `getCollection` without updating filter logic.
-
-### Search Index
-
-`src/pages/search.json.js` merges both collections into single JSON endpoint. Frontend search not included in repository.
-
-### Custom Link Validation
-
-`scripts/link-check.ts` crawls `src/` for external links (http/https) and validates with `link-check` package. Run via `npm run link-check`. Used in CI/CD.
-
-## Common Pitfalls
-
-- **Frontmatter schema**: Missing any required field breaks build - no defaults for `title`, `datePublished`, `excerpt`, `category`, `tags`
-- **Category vs categories**: Schema uses singular `category` (string), not plural
-- **Slug generation**: Derived from filename, not frontmatter - rename file to change URL
-- **RSS date filtering**: Uses `import.meta.glob` not `getCollection` - maintains own draft/date logic
-- **Layout sidebar**: Defaults to showing `dispatches` - must explicitly set `sidebarMode="compendium"` for glossary
-- **Node version**: Requires >=24.0.0 (see `package.json` engines field)
-
-## Editorial Focus
-
-This is a political platform with specific mission: eco-socialist analysis, decolonial perspectives, Global South focus. When contributing content or suggesting features, maintain alignment with anti-capitalist, anti-imperialist, and ecological justice themes.
+Remember: This is a political platform with specific editorial focus - maintain the eco-socialist, decolonial perspective in all content contributions.
