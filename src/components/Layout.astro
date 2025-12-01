@@ -13,8 +13,6 @@ export interface Props {
   title: string;
   description?: string;
   showSidebar?: boolean;
-  sidebarMode?: "dispatches" | "compendium";
-  sidebarCount?: number;
   image?: string;
   type?: "website" | "article";
   datePublished?: string;
@@ -26,8 +24,6 @@ const {
   title,
   description,
   showSidebar = true,
-  sidebarMode = "dispatches",
-  sidebarCount = 5,
   image,
   type,
   datePublished,
@@ -63,7 +59,7 @@ const {
         {
           showSidebar && (
             <aside class="sidebar">
-              <Sidebar show={sidebarMode} count={sidebarCount} />
+              <Sidebar />
             </aside>
           )
         }

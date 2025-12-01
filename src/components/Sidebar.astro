@@ -1,14 +1,11 @@
 ---
 import Categories from "./Categories.astro";
 import RecentPosts from "./RecentPosts.astro";
-import RandomCompendium from "./RandomCompendium.astro";
-
-const { show = "dispatches", count = 5 } = Astro.props;
 ---
 
 <div class="sidebar-content" role="complementary" aria-label="Sidebar">
-  {show === "compendium" ? <RandomCompendium count={count} /> : <RecentPosts />}
-  {show === "dispatches" && <Categories />}
+  <RecentPosts />
+  <Categories />
 </div>
 
 <style>
