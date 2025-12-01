@@ -12,9 +12,9 @@ tags:
 
 # Eco-socialism: A Politics for Life
 
-[Capitalism](/compendium/capitalism) has pushed the planet to its limits. It fuses ecological destruction and inequality into one machinery of collapse. The same system that poisoned rivers for profit also carved up the Global South for minerals, labour, and land. These are not separate crises. They are a single structure of [extraction](/compendium/extractivism), updated for the 21st century.
+Capitalism has pushed the planet to its limits. It fuses ecological destruction and inequality into one machinery of collapse. The same system that poisoned rivers for profit also carved up the Global South for minerals, labour, and land. These are not separate crises. They are a single structure of extraction, updated for the 21st century.
 
-[Eco-socialism](/compendium/eco-socialism) meets the scale of that emergency. It links human freedom with ecological survival, arguing that a liveable world depends on dismantling the economic logic that turns life into profit.
+Eco-socialism meets the scale of that emergency. It links human freedom with ecological survival, arguing that a liveable world depends on dismantling the economic logic that turns life into profit.
 
 ---
 
@@ -47,7 +47,7 @@ Eco-socialism is not austerity. It is abundance reorganised around wellbeing ins
 
 ### Not Green Capitalism
 
-Eco-socialism rejects the rituals of green capitalism: offsets that excuse pollution, carbon markets that turn the atmosphere into a commodity, and corporate branding that sells [extraction](/compendium/extractivism) as sustainability. Technology has a role, but it cannot fix a crisis rooted in power.
+Eco-socialism rejects the rituals of green capitalism: offsets that excuse pollution, carbon markets that turn the atmosphere into a commodity, and corporate branding that sells extraction as sustainability. Technology has a role, but it cannot fix a crisis rooted in power.
 
 ### Not Authoritarian or Anti-Development
 
@@ -113,7 +113,7 @@ Extraction is no mistake. It is empire's legacy. Eco-socialism challenges the co
 - Environmental sovereignty for the Global South.
 - An end to resource deals backed by mercenaries, debt, or foreign militaries.
 
-[Decolonisation](/compendium/decolonisation) is not an optional add-on to ecological politics. It is the heart of it.
+Decolonisation is not an optional add-on to ecological politics. It is the heart of it.
 
 ---
 

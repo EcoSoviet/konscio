@@ -10,11 +10,11 @@ tags:
   ["Socialism", "Eco-Socialism", "Property", "Democracy", "Political Theory"]
 ---
 
-# What [Socialism](/compendium/socialism) Actually Says About Property – And Why the Myths Persist
+# What Socialism Actually Says About Property – And Why the Myths Persist
 
 Say the word _socialism_ and you will often get a fearful response. People imagine a world where the state confiscates homes, bans personal possessions, crushes innovation, and forces everyone into grey conformity. These images survive because they are politically useful. They turn a critique of concentrated power into a caricature.
 
-But [socialism](/compendium/socialism) is not a war on everyday life. It is a challenge to economic domination.
+But socialism is not a war on everyday life. It is a challenge to economic domination.
 
 Much of this confusion comes from deliberately blurring two different concepts of property. Without that distinction, any discussion of socialism collapses into fearmongering. This article sets out to clear the fog. Here are the most common misconceptions about socialism, and what the theory actually says.
 
@@ -40,7 +40,7 @@ No socialist tradition proposes abolishing these. They are tied to _personal use
 
 ### Private Property: Assets That Generate Profit Through Exploitation
 
-Socialists critique **private property in the [means of production](/compendium/means-of-production)**, meaning:
+Socialists critique **private property in the means of production**, meaning:
 
 - Mines
 - Factories
@@ -205,9 +205,9 @@ Authoritarianism can exist under any system:
 - Colonial governments
 - Corporate oligarchies
 
-[Socialism](/compendium/socialism) at its core is about democratic control over the economy. It challenges unaccountable power rather than reinforcing it.
+Socialism at its core is about democratic control over the economy. It challenges unaccountable power rather than reinforcing it.
 
-If anything, [capitalism](/compendium/capitalism) concentrates power in private hands with little public oversight. Socialism distributes it.
+If anything, capitalism concentrates power in private hands with little public oversight. Socialism distributes it.
 
 ---
 

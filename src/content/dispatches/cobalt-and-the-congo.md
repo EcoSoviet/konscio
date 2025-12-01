@@ -48,7 +48,7 @@ Artisanal and small-scale miners extract ore using simple tools in tunnels that 
 
 Large-scale industrial mines bring displacement that is often violent, or at best poorly managed. Families may be relocated with inadequate compensation. Agricultural land and fishing grounds degrade because of sediment, runoff, and toxic contamination. When communities resist, they sometimes face intimidation and repressive policing.
 
-Both forms of [extraction](/compendium/extractivism) feed the same supply chains. Brokers, buyers, and multinational companies benefit from a system where risk is concentrated in local populations while profits flow outward. That imbalance is not an accidental side effect. It is a functional feature of global commodity markets.
+Both forms of extraction feed the same supply chains. Brokers, buyers, and multinational companies benefit from a system where risk is concentrated in local populations while profits flow outward. That imbalance is not an accidental side effect. It is a functional feature of global commodity markets.
 
 ---
 
@@ -104,11 +104,11 @@ Real change requires rethinking who owns, who manages, and who decides.
 
 ## What a politics of life would require
 
-An [eco-socialist](/compendium/eco-socialism) approach reframes the question. It starts from democratic control, material sufficiency, ecological repair, and reparative finance. It rejects the premise that [extraction](/compendium/extractivism) must be the backbone of development.
+An eco-socialist approach reframes the question. It starts from democratic control, material sufficiency, ecological repair, and reparative finance. It rejects the premise that extraction must be the backbone of development.
 
 ### Democratic ownership and community sovereignty
 
-Decisions about [extraction](/compendium/extractivism) must rest with people who live on the land. That includes public enterprises governed by accountable institutions, cooperatives that deliver direct benefits to workers and residents, and legal frameworks that enshrine community vetoes. Ownership is not merely a legal form; it is [democratic practice](/compendium/social-ownership).
+Decisions about extraction must rest with people who live on the land. That includes public enterprises governed by accountable institutions, cooperatives that deliver direct benefits to workers and residents, and legal frameworks that enshrine community vetoes. Ownership is not merely a legal form; it is democratic practice.
 
 ### Reduce demand through sufficiency and circularity
 
