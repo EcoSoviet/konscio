@@ -25,4 +25,4 @@ Communism is often equated with authoritarian state rule. In theory, communism i
 
 ## Relationship to Eco-Socialism
 
-Communism aligns with ecological goals by rejecting growth-driven competition and centring cooperative stewardship of land and resources. It represents the furthest development of [socialism](/compendium/socialism), where [private property](/compendium/private-property) in the [means of production](/compendium/means-of-production) has been fully abolished and replaced with collective coordination. It stands in contrast to [capitalism](/compendium/capitalism), which prioritises profit and accumulation over human need.
+Communism aligns with ecological goals by rejecting growth-driven competition and centring cooperative stewardship of land and resources. It represents the furthest development of [socialism](/compendium/socialism), where [private property](/compendium/private-property) in the [means of production](/compendium/means-of-production) has been fully abolished and replaced with collective coordination.
