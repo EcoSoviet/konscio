@@ -14,10 +14,10 @@ This process intensifies [alienation](/compendium/alienation) under [capitalism]
 
 ## Key Principles
 
-- Human actions appear as independent forces
-- Systems seem natural rather than constructed
-- People relate to social structures as objects
-- Critical thought becomes difficult
+- **Human actions appear as independent forces**
+- **Systems seem natural rather than constructed**
+- **People relate to social structures as objects**
+- **Critical thought becomes difficult**
 
 ## Modern Examples
 
@@ -26,6 +26,6 @@ This process intensifies [alienation](/compendium/alienation) under [capitalism]
 - Jobs described as “created” by capital rather than workers
 - The economy treated as more important than human life
 
-## Relationship to Other Concepts
+## Relationship to Alienation
 
 Reification is a deeper expression of [alienation](/compendium/alienation), where human creativity and agency are obscured by the systems people themselves reproduce.

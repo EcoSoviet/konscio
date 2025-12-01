@@ -17,10 +17,10 @@ The core–periphery divide emerged through colonialism and intensified under mo
 
 ## Key Principles
 
-- Unequal exchange of goods and labour
-- Extraction of raw materials for low returns
-- Debt dependency and structural adjustment
-- Military and political influence from the core
+- **Unequal exchange of goods and labour**
+- **Extraction of raw materials for low returns**
+- **Debt dependency and structural adjustment**
+- **Military and political influence from the core**
 
 ## Modern Examples
 
@@ -28,6 +28,6 @@ The core–periphery divide emerged through colonialism and intensified under mo
 - Latin America exporting agricultural commodities under corporate control
 - Global South populations bearing the brunt of climate impacts
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
 Understanding the core–periphery divide is essential for analysing extractivism, [climate justice](/compendium/climate-justice), and global inequality. It clarifies how [imperialism](/compendium/imperialism) organises global power and resources.

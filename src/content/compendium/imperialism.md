@@ -25,6 +25,6 @@ Classical empire relied on direct colonial rule. Modern imperialism operates thr
 - Geopolitical competition over strategic minerals
 - Military bases securing energy routes
 
-## Relationship to Other Concepts
+## Relationship to Socialism and Eco-Socialism
 
 [Socialism](/compendium/socialism) and [eco-socialism](/compendium/eco-socialism) analysis argues that imperialism shapes global inequality and drives ecological destruction through extractive supply chains. Modern imperialism operates through [neocolonialism](/compendium/neocolonialism) and [extractivism](/compendium/extractivism), requiring [decolonisation](/compendium/decolonisation) to dismantle these systems.

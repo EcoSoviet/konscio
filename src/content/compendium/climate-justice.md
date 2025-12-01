@@ -26,6 +26,6 @@ Rooted in environmental justice movements, Indigenous resistance, and Global Sou
 - Anti-extraction movements
 - Demands for climate finance and debt cancellation
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
 Climate justice complements [eco-socialism](/compendium/eco-socialism) by centring power, inequality, and historical exploitation. It connects to [decolonisation](/compendium/decolonisation) through demands for reparations, rejects [extractivism](/compendium/extractivism), and advocates for a [just transition](/compendium/just-transition) that protects frontline communities.

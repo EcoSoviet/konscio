@@ -26,6 +26,6 @@ The concept was theorised by Peter Kropotkin, who argued that cooperation is cen
 - Time banks and skill-sharing networks
 - Childcare or elder care cooperatives
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
 Mutual aid prefigures an economy based on cooperation and shared responsibility rather than market exchange. It embodies principles central to [socialism](/compendium/socialism) and aligns with [commons](/compendium/commons)-based approaches to collective provisioning and care.

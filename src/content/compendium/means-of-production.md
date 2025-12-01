@@ -24,6 +24,6 @@ Marx identified control of the means of production as the foundation of class st
 - Automated logistics systems
 - Mining and extraction infrastructure
 
-## Relationship to Other Concepts
+## Relationship to Socialism
 
 [Socialism](/compendium/socialism) seeks collective, democratic control of the means of production to eliminate exploitation and align production with human need. This involves ending [private property](/compendium/private-property) in major industries, establishing [social ownership](/compendium/social-ownership), removing [alienation](/compendium/alienation), and stopping [surplus value](/compendium/surplus-value) extraction.

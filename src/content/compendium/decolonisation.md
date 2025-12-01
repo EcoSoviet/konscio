@@ -25,6 +25,6 @@ Political independence across Africa, Asia, and Latin America did not dissolve e
 - Cultural revitalisation projects
 - Demands for reparations and ecological restoration
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
 [Eco-socialism](/compendium/eco-socialism) identifies colonial extraction as a driver of climate breakdown, making decolonisation essential for ecological justice. It challenges ongoing [neocolonialism](/compendium/neocolonialism), [imperialism](/compendium/imperialism), and [extractivism](/compendium/extractivism), connecting to [climate justice](/compendium/climate-justice) demands for reparations and sovereignty.

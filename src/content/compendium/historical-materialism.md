@@ -13,10 +13,10 @@ Developed by Karl Marx and Friedrich Engels, historical materialism challenged e
 
 ## Key Principles
 
-- Material foundations shape society. Economic systems influence law, politics, ideology, and culture.
-- Production determines class structure. The organisation of labour creates classes with different interests.
-- Contradictions drive change. When productive forces outgrow old systems, conflict emerges.
-- Historical stages. Societies move through modes of production shaped by [class struggle](/compendium/class-struggle).
+- **Material foundations shape society**. Economic systems influence law, politics, ideology, and culture.
+- **Production determines class structure**. The organisation of labour creates classes with different interests.
+- **Contradictions drive change**. When productive forces outgrow old systems, conflict emerges.
+- **Historical stages**. Societies move through modes of production shaped by [class struggle](/compendium/class-struggle).
 
 ## Modern Examples
 

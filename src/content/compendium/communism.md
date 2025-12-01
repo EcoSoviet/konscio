@@ -23,6 +23,6 @@ Karl Marx saw communism as a future stage that emerges after capitalism and soci
 
 Communism is often equated with authoritarian state rule. In theory, communism involves the opposite: the absence of a coercive state and the full democratisation of social life.
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
 Communism aligns with ecological goals by rejecting growth-driven competition and centring cooperative stewardship of land and resources. It represents the furthest development of [socialism](/compendium/socialism), where [private property](/compendium/private-property) in the [means of production](/compendium/means-of-production) has been fully abolished and replaced with collective coordination. It stands in contrast to [capitalism](/compendium/capitalism), which prioritises profit and accumulation over human need.

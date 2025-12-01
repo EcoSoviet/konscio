@@ -25,6 +25,6 @@ Karl Marx analysed alienation in early industrial capitalism, showing how wage l
 - Commodity culture replacing community ties
 - Burnout in service and tech professions
 
-## Relationship to Other Concepts
+## Relationship to Socialism
 
 [Socialism](/compendium/socialism) aims to remove alienation by democratising production and giving workers collective control over their labour. By transforming the [means of production](/compendium/means-of-production) and ending [surplus value](/compendium/surplus-value) extraction, socialism restores meaning and autonomy to work.

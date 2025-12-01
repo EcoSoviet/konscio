@@ -26,6 +26,6 @@ Initially a critique of ecological economics, degrowth has grown into a broad mo
 - Community repair workshops
 - Agricultural systems based on agroecology
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
 Degrowth overlaps with [eco-socialism](/compendium/eco-socialism) in rejecting extraction and corporate-driven expansion while emphasising material sufficiency and democratic planning. It strengthens [public goods](/compendium/public-goods) and collective provisioning, aligning with [climate justice](/compendium/climate-justice) movements for equitable resource distribution.

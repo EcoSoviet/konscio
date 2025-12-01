@@ -13,10 +13,10 @@ Marx and Engels drew from earlier dialectical philosophy but grounded it in mate
 
 ## Key Principles
 
-- Everything changes. Social systems are dynamic, not fixed.
-- Contradiction is central. Competing forces exist within the same system.
-- Quantitative change becomes qualitative change. Small shifts accumulate until a system transforms.
-- Unity of opposites. Conflicting forces depend on each other even as they clash.
+- **Everything changes**. Social systems are dynamic, not fixed.
+- **Contradiction is central**. Competing forces exist within the same system.
+- **Quantitative change becomes qualitative change**. Small shifts accumulate until a system transforms.
+- **Unity of opposites**. Conflicting forces depend on each other even as they clash.
 
 ## Modern Examples
 

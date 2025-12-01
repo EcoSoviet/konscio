@@ -27,6 +27,6 @@ Eco-socialism gained prominence in the late 20th century as ecological science a
 - Public green infrastructure
 - Regional industrial policies that reduce extraction
 
-## Relationship to Other Concepts
+## Relationship to Socialism
 
 Eco-socialism argues that [socialism](/compendium/socialism) without ecological limits risks repeating industrial destruction, and ecological politics without socialism cannot confront capital. It rejects [extractivism](/compendium/extractivism), advances [climate justice](/compendium/climate-justice) and [just transition](/compendium/just-transition) demands, supports [decolonisation](/compendium/decolonisation), and requires [social ownership](/compendium/social-ownership) of energy and land.

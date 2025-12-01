@@ -14,10 +14,10 @@ This connects to the relationship between [base and superstructure](/compendium/
 
 ## Key Principles
 
-- Instrument of class power
-- Mediator of social conflict
-- Provider of public goods and administration
-- Enforcer of property relations
+- **Instrument of class power**
+- **Mediator of social conflict**
+- **Provider of public goods and administration**
+- **Enforcer of property relations**
 
 ## Modern Examples
 
@@ -26,7 +26,7 @@ This connects to the relationship between [base and superstructure](/compendium/
 - Public infrastructure managed through public institutions
 - Welfare systems that support social needs but operate within capitalist constraints
 
-## Relationship to Other Concepts
+## Relationship to Socialism
 
 Socialists debate whether the state must be transformed, democratised, or replaced by new forms of collective governance like councils or assemblies. It links closely to [social ownership](/compendium/social-ownership).
 It also mediates conflicts arising from [class struggle](/compendium/class-struggle).

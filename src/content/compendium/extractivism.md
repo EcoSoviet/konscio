@@ -25,6 +25,6 @@ Colonialism entrenched extractive economies across the Global South. Contemporar
 - Amazon deforestation for agribusiness
 - Coal and gas expansion worldwide
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
 [Eco-socialism](/compendium/eco-socialism) rejects extractivism and promotes democratic control of land, reparative justice, and ecological restoration. Extractivism is driven by [imperialism](/compendium/imperialism) and [neocolonialism](/compendium/neocolonialism), making [decolonisation](/compendium/decolonisation) and [climate justice](/compendium/climate-justice) central to ending it.

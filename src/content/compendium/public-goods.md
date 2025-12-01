@@ -25,6 +25,6 @@ Public goods expanded globally in the 20th century through labour movements and 
 - National parks and protected ecosystems
 - Public transport networks
 
-## Relationship to Other Concepts
+## Relationship to Socialism
 
 [Socialism](/compendium/socialism) treats public goods as core infrastructure for freedom, allowing people to live dignified lives without market coercion. They are maintained through [social ownership](/compendium/social-ownership) and strengthened by [degrowth](/compendium/degrowth) approaches that prioritise collective provisioning over private consumption.

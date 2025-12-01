@@ -13,11 +13,11 @@ While Marx wrote about “primitive accumulation,” contemporary theorist David
 
 ## Key Principles
 
-- Privatisation of public assets
-- Resource grabs by corporations
-- Land dispossession of rural and Indigenous communities
-- Debt as a tool for extracting wealth
-- Extraction enforced by law, policing, or military power
+- **Privatisation of public assets**
+- **Resource grabs by corporations**
+- **Land dispossession of rural and Indigenous communities**
+- **Debt as a tool for extracting wealth**
+- **Extraction enforced by law, policing, or military power**
 
 ## Modern Examples
 
@@ -26,6 +26,6 @@ While Marx wrote about “primitive accumulation,” contemporary theorist David
 - Housing speculation displacing urban communities
 - Forced removals for infrastructure megaprojects
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
 Eco-socialism challenges dispossession by prioritising land sovereignty, community ownership, and ecological restoration. It connects directly to [extractivism](/compendium/extractivism) and [decolonisation](/compendium/decolonisation). It also confronts [capitalism](/compendium/capitalism) where profit depends on enclosure and privatisation.

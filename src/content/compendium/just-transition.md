@@ -1,35 +1,31 @@
 ---
 title: "Just Transition"
-description: "A framework for moving away from harmful economic systems while ensuring that workers, communities, and ecosystems are protected and empowered."
+description: "A shift away from fossil fuels that protects workers, communities, and ecosystems instead of sacrificing them."
 ---
 
 ## What Is a Just Transition?
 
-A Just Transition describes a society-wide shift away from destructive economic structures — fossil fuels, extractivism, polluting industries, precarious labour — in ways that uphold dignity, equality, and collective well-being. It ensures that structural change does not sacrifice workers or frontline communities.
-
-Instead of leaving people behind, a Just Transition builds new systems of care, livelihood, and ecological repair.
+A just transition ensures that the move to a low-carbon economy does not leave workers or communities behind. It links climate policy with social protection, job guarantees, and democratic planning.
 
 ## Historical Context
 
-The concept emerged from labour unions in the late 20th century, particularly in industries facing collapse or technological change. Environmental justice movements expanded it, arguing that transition must address racial inequality, colonial extraction, and chronic underinvestment in vulnerable regions.
-
-Today, Just Transition is central to climate justice, economic planning, and transformative policy frameworks.
+The term emerged from labour movements demanding fairness as industries changed. It expanded through climate justice movements, unions, and frontline communities.
 
 ## Key Principles
 
-- Protecting workers and communities through income guarantees, retraining, and stable livelihoods.
-- Building new public systems in energy, transport, land use, and social care.
-- Ending sacrifice zones where pollution is concentrated in poor or racialised communities.
-- Investing in ecological restoration and community well-being.
-- Democratic participation in shaping the transition.
+- Protecting workers in affected industries
+- Investing in new livelihoods
+- Community-led decision-making
+- Ecological restoration
+- Universal access to public services
 
 ## Modern Examples
 
-- Corporate closures replaced by worker cooperatives
-- Regional transition authorities for post-coal economies
-- Public job guarantees in conservation, care work, and restoration
-- Social protection systems ensuring no one falls through the cracks
+- Coal region transition plans
+- Public renewable energy projects
+- Green job guarantees
+- Community-driven adaptation programs
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
-This concept applies across sectors — energy, agriculture, transport, manufacturing, land, and care work. For the version specific to energy systems, see [Just Energy Transition](/compendium/just-energy-transition).
+[Eco-socialism](/compendium/eco-socialism) views just transition as essential for ending fossil dependence without reproducing inequality. It links [climate justice](/compendium/climate-justice) demands with expanded [public goods](/compendium/public-goods) and [social ownership](/compendium/social-ownership) of energy systems to ensure workers and communities shape the transition.

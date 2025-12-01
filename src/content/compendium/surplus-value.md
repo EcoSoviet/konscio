@@ -24,6 +24,6 @@ Marx introduced surplus value to reveal the internal mechanics of capitalism. In
 - Tech workers creating intellectual property owned by their employer
 - Agricultural labour producing surplus for large distributors
 
-## Relationship to Other Concepts
+## Relationship to Socialism
 
 A [socialist](/compendium/socialism) system eliminates surplus extraction by democratising ownership and distributing the value workers create. By transforming the [means of production](/compendium/means-of-production), it removes the structural basis for exploitation and [alienation](/compendium/alienation).

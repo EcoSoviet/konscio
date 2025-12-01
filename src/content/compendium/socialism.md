@@ -27,6 +27,6 @@ Emerging in the 19th century as a response to industrial capitalism, socialism d
 - Universal healthcare and education
 - Democratic socialist governments at municipal or national levels
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
 [Eco-socialism](/compendium/eco-socialism) expands socialism by recognising ecological limits. It insists that a system based on endless growth cannot be reconciled with a liveable planet. Socialism establishes [social ownership](/compendium/social-ownership) of the [means of production](/compendium/means-of-production), eliminates [alienation](/compendium/alienation) and [surplus value](/compendium/surplus-value) extraction, and strengthens [public goods](/compendium/public-goods).

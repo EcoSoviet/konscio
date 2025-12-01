@@ -15,10 +15,10 @@ Working class movements, peasant uprisings, anti-colonial liberation struggles, 
 
 ## Key Principles
 
-- Opposing interests. Owners seek profit and control, workers seek fair compensation and autonomy.
-- Structural conflict. The struggle is built into the economic system, not caused by personal feelings.
-- Collective action. Strikes, unions, cooperatives, and political parties are tools for class power.
-- Historical movement. Class struggle transforms institutions, laws, and social norms.
+- **Opposing interests**. Owners seek profit and control, workers seek fair compensation and autonomy.
+- **Structural conflict**. The struggle is built into the economic system, not caused by personal feelings.
+- **Collective action**. Strikes, unions, cooperatives, and political parties are tools for class power.
+- **Historical movement**. Class struggle transforms institutions, laws, and social norms.
 
 ## Modern Examples
 
@@ -27,6 +27,6 @@ Working class movements, peasant uprisings, anti-colonial liberation struggles, 
 - Workers forming cooperatives when factories close
 - Conflicts over mining, land rights, and environmental destruction
 
-## Relationship to Other Concepts
+## Relationship to Socialism
 
 Socialism views class struggle as the path toward a system where the [means of production](/compendium/means-of-production) are democratically controlled. It connects directly to concepts like [surplus-value](/compendium/surplus-value) and [imperialism](/compendium/imperialism).

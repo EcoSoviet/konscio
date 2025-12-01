@@ -21,6 +21,6 @@ The distinction between personal and private property dates back to early social
 
 Private property is often conflated with homes or personal items. Socialism challenges profit-making property, not personal possessions.
 
-## Relationship to Other Concepts
+## Relationship to Socialism
 
 A [socialist](/compendium/socialism) system replaces private property in major industries with collective, public, or cooperative ownership. This transforms the [means of production](/compendium/means-of-production) through [social ownership](/compendium/social-ownership) and [commons](/compendium/commons)-based governance.

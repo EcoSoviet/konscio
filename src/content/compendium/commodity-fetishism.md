@@ -13,10 +13,10 @@ Marx introduced the idea to show how capitalism obscures exploitation. Instead o
 
 ## Key Principles
 
-- Labour becomes invisible
-- Objects appear to have intrinsic value
-- Social and ecological costs are hidden
-- Market relations substitute for human relations
+- **Labour becomes invisible**
+- **Objects appear to have intrinsic value**
+- **Social and ecological costs are hidden**
+- **Market relations substitute for human relations**
 
 ## Modern Examples
 
@@ -25,6 +25,6 @@ Marx introduced the idea to show how capitalism obscures exploitation. Instead o
 - Food systems that mask land theft and ecological harm
 - Digital products that obscure the workers behind platforms
 
-## Relationship to Other Concepts
+## Relationship to Socialism
 
 Socialism seeks to expose and overcome this distortion by democratising the [means of production](/compendium/means-of-production) and reconnecting social life with the labour and ecosystems that sustain it, challenging [capitalism](/compendium/capitalism) where objects appear to have intrinsic value.

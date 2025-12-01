@@ -14,11 +14,11 @@ These histories tie directly to [imperialism](/compendium/imperialism) and conte
 
 ## Key Principles
 
-- Private ownership of productive assets
-- Wage labour as the basis of survival
-- Production for profit rather than need
-- Competition between firms
-- Endless expansion and accumulation
+- **Private ownership of productive assets**
+- **Wage labour as the basis of survival**
+- **Production for profit rather than need**
+- **Competition between firms**
+- **Endless expansion and accumulation**
 
 ## Modern Examples
 
@@ -28,6 +28,6 @@ These histories tie directly to [imperialism](/compendium/imperialism) and conte
 - Financial institutions shaping global policy through debt
   These dynamics often depend on [accumulation by dispossession](/compendium/accumulation-by-dispossession).
 
-## Relationship to Other Concepts
+## Relationship to Socialism
 
 Capitalism stands in direct contradiction to [socialism](/compendium/socialism), which aims to replace exploitation with democratic control and collective ownership. It is central to concepts like [surplus-value](/compendium/surplus-value), [imperialism](/compendium/imperialism), and [commodity-fetishism](/compendium/commodity-fetishism).

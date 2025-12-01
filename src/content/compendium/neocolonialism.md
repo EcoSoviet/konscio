@@ -25,6 +25,6 @@ After formal independence, many countries in Africa, Asia, and Latin America rem
 - Foreign agribusiness land grabs
 - Security partnerships tied to resource deals
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
 [Eco-socialism](/compendium/eco-socialism) identifies neocolonialism as a central barrier to democratic, ecological development. It perpetuates [imperialism](/compendium/imperialism) through economic means, drives [extractivism](/compendium/extractivism), and requires [decolonisation](/compendium/decolonisation) to dismantle its structures.

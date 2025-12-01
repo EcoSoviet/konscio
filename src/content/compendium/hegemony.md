@@ -13,10 +13,10 @@ Italian theorist Antonio Gramsci developed the concept while analysing why capit
 
 ## Key Principles
 
-- Power through consent, not only coercion
-- Cultural leadership by dominant classes
-- Norms presented as natural or common sense
-- Counter hegemony as resistance
+- **Power through consent, not only coercion**
+- **Cultural leadership by dominant classes**
+- **Norms presented as natural or common sense**
+- **Counter hegemony as resistance**
 
 ## Modern Examples
 
@@ -25,6 +25,6 @@ Italian theorist Antonio Gramsci developed the concept while analysing why capit
 - Political narratives that portray inequality as meritocratic
 - NGOs promoting soft forms of [neocolonialism](/compendium/neocolonialism) policy
 
-## Relationship to Other Concepts
+## Relationship to Socialism
 
-Gramsci's insight explains why material exploitation persists even when people oppose its outcomes. It complements concepts like [alienation](/compendium/alienation) and [commodity-fetishism](/compendium/commodity-fetishism).
+Gramsci’s insight explains why material exploitation persists even when people oppose its outcomes. It complements concepts like [alienation](/compendium/alienation) and [commodity-fetishism](/compendium/commodity-fetishism).

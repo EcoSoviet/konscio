@@ -13,10 +13,10 @@ Developed by classical economists like Adam Smith and David Ricardo, the theory 
 
 ## Key Principles
 
-- Labour is the source of value
-- Wages cover only part of the value workers create
-- Profit depends on unpaid labour time
-- Competition pushes firms to intensify labour exploitation
+- **Labour is the source of value**
+- **Wages cover only part of the value workers create**
+- **Profit depends on unpaid labour time**
+- **Competition pushes firms to intensify labour exploitation**
 
 ## Modern Examples
 
@@ -24,6 +24,6 @@ Developed by classical economists like Adam Smith and David Ricardo, the theory 
 - Agricultural labour generating profit for global supply chains
 - Software engineers whose intellectual output becomes corporate property
 
-## Relationship to Other Concepts
+## Relationship to Socialism
 
 The labour theory of value explains the root of exploitation and supports the socialist argument for collective control over the [means of production](/compendium/means-of-production).

@@ -26,6 +26,6 @@ Social ownership emerged from workers’ struggles against private capital. Diff
 - Social housing associations
 - Municipal water and energy utilities
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
 Social ownership enables planned, equitable ecological transitions and reduces corporate control over extraction and energy. It is central to [socialism](/compendium/socialism) and [eco-socialism](/compendium/eco-socialism), transforming the [means of production](/compendium/means-of-production) by replacing [private property](/compendium/private-property) with democratic structures like [commons](/compendium/commons) and cooperatives.

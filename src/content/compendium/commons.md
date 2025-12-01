@@ -26,6 +26,6 @@ Traditional commons existed across Europe, Africa, Asia, and the Americas until 
 - Seed-sharing networks
 - Cooperative forests and fisheries
 
-## Relationship to Other Concepts
+## Relationship to Eco-Socialism
 
 The commons model aligns with [eco-socialism](/compendium/eco-socialism) by grounding resource management in care, democracy, and ecological limits. It challenges [private property](/compendium/private-property) and offers an alternative to both market extraction and centralized state control, linking to broader forms of [social ownership](/compendium/social-ownership).
