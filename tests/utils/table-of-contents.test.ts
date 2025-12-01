@@ -1,8 +1,5 @@
 import { describe, expect, it } from "vitest";
-import {
-  extractHeadings,
-  filterHeadingsForTOC,
-} from "../../src/utils/table-of-contents";
+import { extractHeadings, filterHeadingsForTOC } from "../../src/utils/table-of-contents";
 
 describe("extractHeadings", () => {
   it("should extract headings from markdown", () => {
@@ -59,9 +56,7 @@ unclosed frontmatter
 # Heading 1
 `;
     const headings = extractHeadings(content);
-    expect(headings).toEqual([
-      { depth: 1, text: "Heading 1", slug: "heading-1" },
-    ]);
+    expect(headings).toEqual([{ depth: 1, text: "Heading 1", slug: "heading-1" }]);
   });
 
   it("should handle headings with invalid depths", () => {
@@ -70,9 +65,7 @@ unclosed frontmatter
 # Valid Heading
 `;
     const headings = extractHeadings(content);
-    expect(headings).toEqual([
-      { depth: 1, text: "Valid Heading", slug: "valid-heading" },
-    ]);
+    expect(headings).toEqual([{ depth: 1, text: "Valid Heading", slug: "valid-heading" }]);
   });
 
   it("should handle content with only special characters in headings", () => {
@@ -98,9 +91,7 @@ unclosed frontmatter
   it("should handle mixed markdown elements in headings", () => {
     const content = "## Heading with [link](http://example.com) and `code`";
     const headings = extractHeadings(content);
-    expect(headings[0].text).toBe(
-      "Heading with [link](http://example.com) and `code`"
-    );
+    expect(headings[0].text).toBe("Heading with [link](http://example.com) and `code`");
     expect(headings[0].slug).toBe("heading-with-linkhttpexamplecom-and-code");
   });
 

@@ -39,22 +39,18 @@ function extractLinks(content: string): string[] {
   return links;
 }
 
-async function checkLinks(
-  links: string[]
-): Promise<{ url: string; status: string }[]> {
+async function checkLinks(links: string[]): Promise<{ url: string; status: string }[]> {
   const results: { url: string; status: string }[] = [];
   for (const url of links) {
-    const res = await new Promise<{ url: string; status: string }>(
-      (resolve) => {
-        linkCheck(url, (err, result) => {
-          if (err) {
-            resolve({ url, status: "error" });
-          } else {
-            resolve({ url, status: result.status });
-          }
-        });
-      }
-    );
+    const res = await new Promise<{ url: string; status: string }>((resolve) => {
+      linkCheck(url, (err, result) => {
+        if (err) {
+          resolve({ url, status: "error" });
+        } else {
+          resolve({ url, status: result.status });
+        }
+      });
+    });
     results.push(res);
   }
   return results;

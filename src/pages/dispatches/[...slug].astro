@@ -3,10 +3,7 @@ import Layout from "../../components/Layout.astro";
 import TableOfContents from "../../components/TableOfContents.astro";
 import { config } from "../../config";
 import { slugifyPath } from "../../utils/slugify";
-import {
-  extractHeadings,
-  filterHeadingsForTOC,
-} from "../../utils/table-of-contents";
+import { extractHeadings, filterHeadingsForTOC } from "../../utils/table-of-contents";
 import { categoryPath } from "../../utils/url";
 
 export async function getStaticPaths() {
@@ -17,10 +14,7 @@ export async function getStaticPaths() {
     eager: true,
   });
 
-  const allPosts = [
-    ...Object.values(mdPostsGlob),
-    ...Object.values(mdxPostsGlob),
-  ]
+  const allPosts = [...Object.values(mdPostsGlob), ...Object.values(mdxPostsGlob)]
     .filter((post: any) => !post.frontmatter.draft)
     .filter((post: any) => {
       const rawDate = post.frontmatter.datePublished;
@@ -82,11 +76,7 @@ const dateModified = frontmatter.dateModified
           }
         </time>
 
-        {
-          frontmatter.author && (
-            <span class="post-author">By {frontmatter.author}</span>
-          )
-        }
+        {frontmatter.author && <span class="post-author">By {frontmatter.author}</span>}
 
         <span class="post-reading-time">{frontmatter.minutesRead}</span>
 
@@ -94,11 +84,7 @@ const dateModified = frontmatter.dateModified
           frontmatter.categories && frontmatter.categories.length > 0 && (
             <div class="post-categories">
               {frontmatter.categories.map((category: string) => (
-                <a
-                  href={categoryPath(category)}
-                  data-astro-prefetch
-                  class="category-tag"
-                >
+                <a href={categoryPath(category)} data-astro-prefetch class="category-tag">
                   {category}
                 </a>
               ))}
@@ -148,10 +134,8 @@ const dateModified = frontmatter.dateModified
       }
 
       <div class="post-navigation">
-        <a
-          href={`${base}dispatches`}
-          data-astro-prefetch
-          class="back-to-dispatches">← Back to Dispatches</a
+        <a href={`${base}dispatches`} data-astro-prefetch class="back-to-dispatches"
+          >← Back to Dispatches</a
         >
       </div>
     </footer>

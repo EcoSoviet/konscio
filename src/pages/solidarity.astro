@@ -44,8 +44,7 @@ const labour = [
     description:
       "Grassroots labour-climate initiative building connections between workers and environmental movements for a just transition.",
     url: "https://workerclimate.org/our-vision",
-    ariaLabel:
-      "Workers and Climate Solidarity Network website — opens in a new tab",
+    ariaLabel: "Workers and Climate Solidarity Network website — opens in a new tab",
   },
   {
     title: "Workers' World Media Productions (WWMP)",
@@ -166,8 +165,7 @@ const foodSovereignty = [
     description:
       "Argentine peasant and smallholder union building food sovereignty through agroecology and direct distribution.",
     url: "https://uniondetrabajadoresdelatierra.com.ar",
-    ariaLabel:
-      "Unión de Trabajadores de la Tierra website — opens in a new tab",
+    ariaLabel: "Unión de Trabajadores de la Tierra website — opens in a new tab",
   },
   {
     title: "Rural Women's Assembly",
@@ -261,16 +259,14 @@ const indigenous = [
     description:
       "Indigenous-led resistance in Queensland opposing the Adani coal mine and asserting cultural authority, land rights, and environmental defence through continuous on-Country presence.",
     url: "https://wanganjagalingou.com.au/family-council/",
-    ariaLabel:
-      "Wangan and Jagalingou Family Council website — opens in a new tab",
+    ariaLabel: "Wangan and Jagalingou Family Council website — opens in a new tab",
   },
   {
     title: "Ontario Federation of Indigenous Friendship Centres (OFIFC)",
     description:
       "Indigenous-led network advancing urban Indigenous rights, cultural renewal, community wellbeing, and self-determination across Ontario's Friendship Centres.",
     url: "https://ofifc.org",
-    ariaLabel:
-      "Ontario Federation of Indigenous Friendship Centres website — opens in a new tab",
+    ariaLabel: "Ontario Federation of Indigenous Friendship Centres website — opens in a new tab",
   },
 ].sort((a, b) => a.title.localeCompare(b.title));
 
@@ -364,8 +360,7 @@ const ecology = [
     description:
       "Global network of grassroots environmental groups pursuing climate justice, food sovereignty, forest protection and systemic pathways beyond extractivism.",
     url: "https://www.foei.org",
-    ariaLabel:
-      "Friends of the Earth International website — opens in a new tab",
+    ariaLabel: "Friends of the Earth International website — opens in a new tab",
   },
 ].sort((a, b) => a.title.localeCompare(b.title));
 
@@ -470,24 +465,18 @@ const researchEducation = [
       <h1 class="page-title">Solidarity</h1>
       <hr class="page-rule" />
       <p class="solidarity-intro">
-        Groups and movements fighting for climate justice, workers' power,
-        decolonial transformation and ecological justice. Learn, support, or
-        join their struggles.
+        Groups and movements fighting for climate justice, workers' power, decolonial transformation
+        and ecological justice. Learn, support, or join their struggles.
       </p>
     </header>
 
     <section class="solidarity-section">
-      <BookmarkNav
-        sections={sections}
-        ariaLabel="Solidarity category navigation"
-      />
+      <BookmarkNav sections={sections} ariaLabel="Solidarity category navigation" />
 
-      <h2 class="category-title" id="labour">
-        Labour & Working-Class Movements
-      </h2>
+      <h2 class="category-title" id="labour">Labour & Working-Class Movements</h2>
       <p class="solidarity-section-intro">
-        Unions and grassroots groups fighting for workers' rights, fair wages,
-        safe conditions, and collective power in the workplace and beyond.
+        Unions and grassroots groups fighting for workers' rights, fair wages, safe conditions, and
+        collective power in the workplace and beyond.
       </p>
       <div class="solidarity-grid">
         {labour.map((card) => <SolidarityCard {...card} />)}
@@ -497,31 +486,26 @@ const researchEducation = [
         Economic & Anti-Imperialist Solidarity
       </h2>
       <p class="solidarity-section-intro">
-        Movements and networks challenging debt, financial imperialism, and
-        global inequality—building economic justice and sovereignty for the
-        Global South.
+        Movements and networks challenging debt, financial imperialism, and global
+        inequality—building economic justice and sovereignty for the Global South.
       </p>
       <div class="solidarity-grid">
         {economicSolidarity.map((card) => <SolidarityCard {...card} />)}
       </div>
 
-      <h2 class="category-title" id="food-sovereignty">
-        Peasant Movements & Food Sovereignty
-      </h2>
+      <h2 class="category-title" id="food-sovereignty">Peasant Movements & Food Sovereignty</h2>
       <p class="solidarity-section-intro">
-        Peasant, Indigenous, and smallholder alliances defending agroecology,
-        land rights, and community control over food systems.
+        Peasant, Indigenous, and smallholder alliances defending agroecology, land rights, and
+        community control over food systems.
       </p>
       <div class="solidarity-grid">
         {foodSovereignty.map((card) => <SolidarityCard {...card} />)}
       </div>
 
-      <h2 class="category-title" id="indigenous">
-        Indigenous & Land Justice Movements
-      </h2>
+      <h2 class="category-title" id="indigenous">Indigenous & Land Justice Movements</h2>
       <p class="solidarity-section-intro">
-        Indigenous-led campaigns for land back, sovereignty, cultural survival,
-        and environmental justice across continents.
+        Indigenous-led campaigns for land back, sovereignty, cultural survival, and environmental
+        justice across continents.
       </p>
       <div class="solidarity-grid">
         {indigenous.map((card) => <SolidarityCard {...card} />)}
@@ -529,19 +513,17 @@ const researchEducation = [
 
       <h2 class="category-title" id="ecology">Ecological & Climate Justice</h2>
       <p class="solidarity-section-intro">
-        Frontline and grassroots groups confronting extractivism, fossil fuels,
-        and climate breakdown—fighting for a just, sustainable future.
+        Frontline and grassroots groups confronting extractivism, fossil fuels, and climate
+        breakdown—fighting for a just, sustainable future.
       </p>
       <div class="solidarity-grid">
         {ecology.map((card) => <SolidarityCard {...card} />)}
       </div>
 
-      <h2 class="category-title" id="mutual-aid">
-        Mutual Aid & Community Solidarity
-      </h2>
+      <h2 class="category-title" id="mutual-aid">Mutual Aid & Community Solidarity</h2>
       <p class="solidarity-section-intro">
-        Networks and collectives practicing mutual aid, disaster relief, and
-        everyday solidarity—meeting needs where states and markets fail.
+        Networks and collectives practicing mutual aid, disaster relief, and everyday
+        solidarity—meeting needs where states and markets fail.
       </p>
       <div class="solidarity-grid">
         {mutualAid.map((card) => <SolidarityCard {...card} />)}
@@ -549,19 +531,17 @@ const researchEducation = [
 
       <h2 class="category-title" id="movement-media">Movement Media</h2>
       <p class="solidarity-section-intro">
-        Independent and movement-aligned media amplifying grassroots voices,
-        radical analysis, and stories of resistance.
+        Independent and movement-aligned media amplifying grassroots voices, radical analysis, and
+        stories of resistance.
       </p>
       <div class="solidarity-grid">
         {movementMedia.map((card) => <SolidarityCard {...card} />)}
       </div>
 
-      <h2 class="category-title" id="research-education">
-        Research & Education
-      </h2>
+      <h2 class="category-title" id="research-education">Research & Education</h2>
       <p class="solidarity-section-intro">
-        Institutes, think tanks, and collectives producing research, education,
-        and policy for justice, democracy, and liberation.
+        Institutes, think tanks, and collectives producing research, education, and policy for
+        justice, democracy, and liberation.
       </p>
       <div class="solidarity-grid">
         {researchEducation.map((card) => <SolidarityCard {...card} />)}

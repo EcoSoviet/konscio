@@ -34,9 +34,7 @@ allPosts.forEach((post: any) => {
 const categoryMap: Record<string, any[]> = {};
 Array.from(allCategories).forEach((category: string) => {
   categoryMap[category] = allPosts.filter(
-    (post: any) =>
-      post.frontmatter.categories &&
-      post.frontmatter.categories.includes(category)
+    (post: any) => post.frontmatter.categories && post.frontmatter.categories.includes(category)
   );
 });
 
@@ -57,8 +55,7 @@ const sortedCategories = Object.entries(categoryMap).sort((a: any, b: any) => {
     <header class="page-header">
       <h1 class="page-title">Categories</h1>
       <p class="page-description">
-        Browse articles organised by category. Click on any category to see
-        related posts.
+        Browse articles organised by category. Click on any category to see related posts.
       </p>
       <hr class="page-rule" />
     </header>
@@ -85,10 +82,7 @@ const sortedCategories = Object.entries(categoryMap).sort((a: any, b: any) => {
     {
       sortedCategories.length === 0 && (
         <div class="no-categories">
-          <p>
-            No categories found. Add categories to your dispatches in the
-            frontmatter.
-          </p>
+          <p>No categories found. Add categories to your dispatches in the frontmatter.</p>
         </div>
       )
     }

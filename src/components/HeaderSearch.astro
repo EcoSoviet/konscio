@@ -17,20 +17,8 @@
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <line
-            x1="18"
-            y1="6"
-            x2="6"
-            y2="18"
-            stroke="currentColor"
-            stroke-width="2"></line>
-          <line
-            x1="6"
-            y1="6"
-            x2="18"
-            y2="18"
-            stroke="currentColor"
-            stroke-width="2"></line>
+          <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"></line>
+          <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"></line>
         </svg>
       </button>
     </div>
@@ -59,12 +47,8 @@
     searchInput = document.getElementById("search-input") as HTMLInputElement;
     searchResults = document.getElementById("search-results");
 
-    document
-      .getElementById("search-toggle")
-      ?.addEventListener("click", openSearch);
-    document
-      .getElementById("search-close")
-      ?.addEventListener("click", closeSearch);
+    document.getElementById("search-toggle")?.addEventListener("click", openSearch);
+    document.getElementById("search-close")?.addEventListener("click", closeSearch);
     searchInput?.addEventListener("input", handleSearch);
 
     document.addEventListener("keydown", (e) => {
@@ -114,9 +98,7 @@
           post.title.toLowerCase().includes(query) ||
           post.excerpt.toLowerCase().includes(query) ||
           (post.categories &&
-            post.categories.some((cat: string) =>
-              cat.toLowerCase().includes(query)
-            ))
+            post.categories.some((cat: string) => cat.toLowerCase().includes(query)))
       )
       .slice(0, 10);
 
@@ -142,13 +124,14 @@
         <h3 class="search-result-title">
           <a href="${base}${post.url.startsWith("/") ? post.url.slice(1) : post.url}">${post.title}</a>
         </h3>
-        <time class="search-result-date">${new Date(
-          post.datePublished
-        ).toLocaleDateString("en-GB", {
-          year: "numeric",
-          month: "long",
-          day: "numeric",
-        })}</time>
+        <time class="search-result-date">${new Date(post.datePublished).toLocaleDateString(
+          "en-GB",
+          {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          }
+        )}</time>
         ${post.excerpt ? `<p class="search-result-excerpt">${post.excerpt}</p>` : ""}
         ${
           post.categories
@@ -259,8 +242,8 @@
     border-radius: 8px;
     border: 1px solid var(--color-border);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: calc(var(--grid-unit) * 3) calc(var(--grid-unit) * 4)
-      calc(var(--grid-unit) * 4) calc(var(--grid-unit) * 4);
+    padding: calc(var(--grid-unit) * 3) calc(var(--grid-unit) * 4) calc(var(--grid-unit) * 4)
+      calc(var(--grid-unit) * 4);
   }
 
   .search-results:empty {
@@ -269,8 +252,8 @@
 
   .search-results-header {
     padding: calc(var(--grid-unit) * 3) calc(var(--grid-unit) * 4);
-    margin: calc(var(--grid-unit) * -3) calc(var(--grid-unit) * -4)
-      calc(var(--grid-unit) * 3) calc(var(--grid-unit) * -4);
+    margin: calc(var(--grid-unit) * -3) calc(var(--grid-unit) * -4) calc(var(--grid-unit) * 3)
+      calc(var(--grid-unit) * -4);
     border-bottom: 1px solid var(--color-border);
     background: var(--color-surface);
     position: sticky;
@@ -386,14 +369,14 @@
     }
 
     .search-results {
-      padding: calc(var(--grid-unit) * 2) calc(var(--grid-unit) * 2.5)
-        calc(var(--grid-unit) * 3) calc(var(--grid-unit) * 2.5);
+      padding: calc(var(--grid-unit) * 2) calc(var(--grid-unit) * 2.5) calc(var(--grid-unit) * 3)
+        calc(var(--grid-unit) * 2.5);
     }
 
     .search-results-header {
       padding: calc(var(--grid-unit) * 2) calc(var(--grid-unit) * 2.5);
-      margin: calc(var(--grid-unit) * -2) calc(var(--grid-unit) * -2.5)
-        calc(var(--grid-unit) * 2) calc(var(--grid-unit) * -2.5);
+      margin: calc(var(--grid-unit) * -2) calc(var(--grid-unit) * -2.5) calc(var(--grid-unit) * 2)
+        calc(var(--grid-unit) * -2.5);
     }
 
     .search-result-categories {

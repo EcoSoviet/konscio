@@ -42,9 +42,9 @@ describe("rss.xml", () => {
     expect(callArgs.items[0].link).toMatch(/^\/dispatches\//);
 
     if (callArgs.items.length > 1) {
-      expect(
-        new Date(callArgs.items[0].pubDate).getTime()
-      ).toBeGreaterThanOrEqual(new Date(callArgs.items[1].pubDate).getTime());
+      expect(new Date(callArgs.items[0].pubDate).getTime()).toBeGreaterThanOrEqual(
+        new Date(callArgs.items[1].pubDate).getTime()
+      );
     }
   });
 

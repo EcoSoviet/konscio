@@ -63,8 +63,8 @@ const sortedPosts = allPosts
       <div class="container">
         <h2 class="section-title">Latest Dispatches</h2>
         <p class="dispatches-description">
-          Eco-socialist and decolonial analysis from Africa and beyond —
-          confronting the systems that exploit people and the Earth alike.
+          Eco-socialist and decolonial analysis from Africa and beyond — confronting the systems
+          that exploit people and the Earth alike.
         </p>
 
         {
@@ -79,13 +79,8 @@ const sortedPosts = allPosts
                   </h3>
 
                   <div class="dispatches-post-meta">
-                    <time
-                      class="dispatches-post-date"
-                      datetime={post.frontmatter.datePublished}
-                    >
-                      {new Date(
-                        post.frontmatter.datePublished
-                      ).toLocaleDateString("en-GB", {
+                    <time class="dispatches-post-date" datetime={post.frontmatter.datePublished}>
+                      {new Date(post.frontmatter.datePublished).toLocaleDateString("en-GB", {
                         year: "numeric",
                         month: "long",
                         day: "numeric",
@@ -93,20 +88,14 @@ const sortedPosts = allPosts
                     </time>
 
                     {post.frontmatter.author && (
-                      <span class="dispatches-post-author">
-                        By {post.frontmatter.author}
-                      </span>
+                      <span class="dispatches-post-author">By {post.frontmatter.author}</span>
                     )}
 
-                    <span class="dispatches-post-reading-time">
-                      {post.frontmatter.minutesRead}
-                    </span>
+                    <span class="dispatches-post-reading-time">{post.frontmatter.minutesRead}</span>
                   </div>
 
                   {post.frontmatter.excerpt && (
-                    <p class="dispatches-post-excerpt">
-                      {post.frontmatter.excerpt}
-                    </p>
+                    <p class="dispatches-post-excerpt">{post.frontmatter.excerpt}</p>
                   )}
 
                   {post.frontmatter.categories && (
@@ -137,58 +126,53 @@ const sortedPosts = allPosts
         <h2 class="section-title">Theoretical Foundations</h2>
         <div class="theoretical-foundations-grid">
           <div class="theoretical-foundations-card">
-            <h3 class="theoretical-foundations-title">
-              Historical Materialism
-            </h3>
+            <h3 class="theoretical-foundations-title">Historical Materialism</h3>
             <p class="theoretical-foundations-description">
-              Understanding the present through the forces and relations of
-              production — how material conditions, not ideals alone, shape
-              society, history, and the natural world we depend on.
+              Understanding the present through the forces and relations of production — how
+              material conditions, not ideals alone, shape society, history, and the natural world
+              we depend on.
             </p>
           </div>
 
           <div class="theoretical-foundations-card">
             <h3 class="theoretical-foundations-title">Decoloniality</h3>
             <p class="theoretical-foundations-description">
-              Revealing how colonial power endures beyond formal empire —
-              embedded in economies, cultures, and systems of knowledge and
-              governance. Liberation requires delinking from colonial modernity
-              in both thought and ecology.
+              Revealing how colonial power endures beyond formal empire — embedded in economies,
+              cultures, and systems of knowledge and governance. Liberation requires delinking from
+              colonial modernity in both thought and ecology.
             </p>
           </div>
 
           <div class="theoretical-foundations-card">
             <h3 class="theoretical-foundations-title">Eco-Socialism</h3>
             <p class="theoretical-foundations-description">
-              Linking social and ecological justice through democracy and public
-              power. The struggle for a liveable planet demands collective
-              ownership and freedom from capitalist and extractive domination.
+              Linking social and ecological justice through democracy and public power. The struggle
+              for a liveable planet demands collective ownership and freedom from capitalist and
+              extractive domination.
             </p>
           </div>
 
           <div class="theoretical-foundations-card">
             <h3 class="theoretical-foundations-title">Anti-Imperialism</h3>
             <p class="theoretical-foundations-description">
-              Standing against domination in all its forms — military, economic,
-              and ideological — and building international solidarity among
-              peoples and movements resisting empire.
+              Standing against domination in all its forms — military, economic, and ideological —
+              and building international solidarity among peoples and movements resisting empire.
             </p>
           </div>
 
           <div class="theoretical-foundations-card">
             <h3 class="theoretical-foundations-title">Global Solidarity</h3>
             <p class="theoretical-foundations-description">
-              Writing from Africa for a shared world — reclaiming narrative
-              space from empire and grounding analysis in lived struggle,
-              cooperation, and mutual liberation.
+              Writing from Africa for a shared world — reclaiming narrative space from empire and
+              grounding analysis in lived struggle, cooperation, and mutual liberation.
             </p>
           </div>
 
           <div class="theoretical-foundations-card">
             <h3 class="theoretical-foundations-title">Praxis Over Theory</h3>
             <p class="theoretical-foundations-description">
-              Ideas matter only when they serve collective action. Theory must
-              guide struggle — never replace it.
+              Ideas matter only when they serve collective action. Theory must guide struggle —
+              never replace it.
             </p>
           </div>
         </div>
@@ -211,11 +195,7 @@ const sortedPosts = allPosts
   .hero {
     text-align: center;
     padding: calc(var(--grid-unit) * 12) 0 calc(var(--grid-unit) * 8);
-    background: linear-gradient(
-      135deg,
-      var(--color-surface) 0%,
-      var(--color-background) 100%
-    );
+    background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-background) 100%);
   }
 
   .hero-content {

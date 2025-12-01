@@ -45,9 +45,7 @@ describe("categoryPath", () => {
   it("slugifies spaces and slashes to dashes and lowercases", () => {
     withTempBase("/", () => {
       expect(categoryPath("Global South")).toBe("/categories/global-south");
-      expect(categoryPath("Energy/Transition")).toBe(
-        "/categories/energy-transition"
-      );
+      expect(categoryPath("Energy/Transition")).toBe("/categories/energy-transition");
     });
   });
 

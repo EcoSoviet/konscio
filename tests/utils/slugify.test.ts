@@ -74,12 +74,8 @@ describe("slugifyPath", () => {
 
   it("should handle paths with special filesystem characters", () => {
     expect(slugifyPath("path/file:with:colons.md")).toBe("file:with:colons");
-    expect(slugifyPath("path/file*with*asterisks.md")).toBe(
-      "file*with*asterisks"
-    );
-    expect(slugifyPath("path/file?with?question.md")).toBe(
-      "file?with?question"
-    );
+    expect(slugifyPath("path/file*with*asterisks.md")).toBe("file*with*asterisks");
+    expect(slugifyPath("path/file?with?question.md")).toBe("file?with?question");
     expect(slugifyPath('path/file"with"quotes.md')).toBe('file"with"quotes');
   });
 

@@ -24,18 +24,14 @@ export async function GET() {
           dateObj = new Date(post.data.datePublished);
         }
 
-        const datePublished = isNaN(dateObj.getTime())
-          ? null
-          : dateObj.toISOString();
+        const datePublished = isNaN(dateObj.getTime()) ? null : dateObj.toISOString();
 
         return {
           title: post.data.title || "Untitled",
           url: "/dispatches/" + post.slug,
           datePublished,
           excerpt: post.data.excerpt || post.data.description || "",
-          categories: Array.isArray(post.data.categories)
-            ? post.data.categories
-            : [],
+          categories: Array.isArray(post.data.categories) ? post.data.categories : [],
         };
       });
 

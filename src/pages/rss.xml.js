@@ -7,10 +7,7 @@ export async function GET(context) {
   });
 
   const items = Object.entries(posts)
-    .filter(
-      ([_path, post]) =>
-        post && post.frontmatter && post.frontmatter.draft !== true
-    )
+    .filter(([_path, post]) => post && post.frontmatter && post.frontmatter.draft !== true)
     .filter(([_path, post]) => {
       const rawDate = post.frontmatter.datePublished;
       const date = new Date(rawDate);
@@ -27,8 +24,7 @@ export async function GET(context) {
       return {
         title: post.frontmatter.title || "Untitled",
         pubDate: post.frontmatter.datePublished,
-        description:
-          post.frontmatter.excerpt || post.frontmatter.description || "",
+        description: post.frontmatter.excerpt || post.frontmatter.description || "",
         link: `/dispatches/${slug}/`,
       };
     })
@@ -42,8 +38,7 @@ export async function GET(context) {
       return dateB.getTime() - dateA.getTime();
     });
 
-  const siteUrl =
-    typeof context.site === "string" ? context.site.replace(/\/?$/, "/") : "/";
+  const siteUrl = typeof context.site === "string" ? context.site.replace(/\/?$/, "/") : "/";
   return rss({
     title: config.title,
     description: config.description,

@@ -19,9 +19,7 @@ const allPosts = [...Object.values(mdPostsGlob), ...Object.values(mdxPostsGlob)]
   }) as any[];
 
 const categories = [
-  ...new Set(
-    allPosts.flatMap((post: any) => post.frontmatter?.categories || [])
-  ),
+  ...new Set(allPosts.flatMap((post: any) => post.frontmatter?.categories || [])),
 ];
 ---
 
@@ -32,11 +30,7 @@ const categories = [
       <ul class="category-list">
         {categories.map((category) => (
           <li class="category-item">
-            <a
-              href={categoryPath(category)}
-              data-astro-prefetch
-              class="category-link"
-            >
+            <a href={categoryPath(category)} data-astro-prefetch class="category-link">
               {category}
             </a>
           </li>

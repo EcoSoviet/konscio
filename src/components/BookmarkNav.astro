@@ -14,11 +14,7 @@ const { sections, ariaLabel = "Category navigation" } = Astro.props;
 
 <nav class="solidarity-nav" aria-label={ariaLabel}>
   <div class="bookmark-container">
-    <button
-      class="bookmark-toggle"
-      aria-expanded="false"
-      aria-controls="bookmark-list"
-    >
+    <button class="bookmark-toggle" aria-expanded="false" aria-controls="bookmark-list">
       <span class="bookmark-text">Jump to Section</span>
       <span class="bookmark-icon" aria-hidden="true">↓</span>
     </button>
@@ -29,8 +25,7 @@ const { sections, ariaLabel = "Category navigation" } = Astro.props;
             <a
               href={`#${section.id}`}
               aria-current={
-                typeof window !== "undefined" &&
-                window.location.hash === `#${section.id}`
+                typeof window !== "undefined" && window.location.hash === `#${section.id}`
                   ? "true"
                   : undefined
               }

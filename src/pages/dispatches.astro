@@ -12,10 +12,7 @@ const mdxPostsGlob = import.meta.glob("../content/dispatches/*.mdx", {
   eager: true,
 });
 
-const allPosts = [
-  ...Object.values(mdPostsGlob),
-  ...Object.values(mdxPostsGlob),
-] as any[];
+const allPosts = [...Object.values(mdPostsGlob), ...Object.values(mdxPostsGlob)] as any[];
 const sortedPosts = allPosts
   .filter((post: any) => !post.frontmatter.draft)
   .filter((post: any) => {
@@ -33,17 +30,13 @@ const sortedPosts = allPosts
   );
 ---
 
-<Layout
-  title="Dispatches | The Red Soil"
-  description="All dispatches from The Red Soil"
->
+<Layout title="Dispatches | The Red Soil" description="All dispatches from The Red Soil">
   <div class="dispatches-page">
     <header class="dispatches-header">
       <h1 class="dispatches-title">Dispatches</h1>
       <p class="dispatches-description">
-        Critical eco-socialist and decolonial analysis from Africa and the
-        Global South — exposing the systems that exploit both people and the
-        planet.
+        Critical eco-socialist and decolonial analysis from Africa and the Global South — exposing
+        the systems that exploit both people and the planet.
       </p>
       <hr class="dispatches-rule" />
     </header>
@@ -54,41 +47,28 @@ const sortedPosts = allPosts
           {sortedPosts.map((post: any) => (
             <article class="post-item">
               <h2 class="post-title">
-                <a
-                  href={`${base}dispatches/${slugifyPath(post.file)}`}
-                  data-astro-prefetch
-                >
+                <a href={`${base}dispatches/${slugifyPath(post.file)}`} data-astro-prefetch>
                   {post.frontmatter.title}
                 </a>
               </h2>
 
               <div class="post-meta">
-                <time
-                  class="post-date"
-                  datetime={post.frontmatter.datePublished}
-                >
-                  {new Date(post.frontmatter.datePublished).toLocaleDateString(
-                    "en-GB",
-                    {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                    }
-                  )}
+                <time class="post-date" datetime={post.frontmatter.datePublished}>
+                  {new Date(post.frontmatter.datePublished).toLocaleDateString("en-GB", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
                 </time>
 
                 {post.frontmatter.author && (
                   <span class="post-author">By {post.frontmatter.author}</span>
                 )}
 
-                <span class="post-reading-time">
-                  {post.frontmatter.minutesRead}
-                </span>
+                <span class="post-reading-time">{post.frontmatter.minutesRead}</span>
               </div>
 
-              {post.frontmatter.excerpt && (
-                <p class="post-excerpt">{post.frontmatter.excerpt}</p>
-              )}
+              {post.frontmatter.excerpt && <p class="post-excerpt">{post.frontmatter.excerpt}</p>}
 
               {post.frontmatter.categories && (
                 <div class="post-categories">

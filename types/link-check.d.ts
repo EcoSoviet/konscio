@@ -5,9 +5,6 @@ declare module "link-check" {
     statusCode?: number;
     err?: any;
   }
-  function linkCheck(
-    url: string,
-    callback: (err: any, result: LinkCheckResult) => void
-  ): void;
+  function linkCheck(url: string, callback: (err: any, result: LinkCheckResult) => void): void;
   export = linkCheck;
 }

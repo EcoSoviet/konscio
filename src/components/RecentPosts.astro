@@ -10,10 +10,7 @@ const mdPostsGlob = import.meta.glob("../content/dispatches/*.md", {
 const mdxPostsGlob = import.meta.glob("../content/dispatches/*.mdx", {
   eager: true,
 });
-const allPosts = [
-  ...Object.values(mdPostsGlob),
-  ...Object.values(mdxPostsGlob),
-] as any[];
+const allPosts = [...Object.values(mdPostsGlob), ...Object.values(mdxPostsGlob)] as any[];
 const recentPosts = allPosts
   .filter((post: any) => !post.frontmatter.draft)
   .filter((post: any) => {
@@ -47,14 +44,11 @@ const recentPosts = allPosts
               {post.frontmatter.title}
             </a>
             <time class="post-date" datetime={post.frontmatter.datePublished}>
-              {new Date(post.frontmatter.datePublished).toLocaleDateString(
-                "en-GB",
-                {
-                  month: "short",
-                  day: "numeric",
-                  year: "numeric",
-                }
-              )}
+              {new Date(post.frontmatter.datePublished).toLocaleDateString("en-GB", {
+                month: "short",
+                day: "numeric",
+                year: "numeric",
+              })}
             </time>
           </li>
         ))}

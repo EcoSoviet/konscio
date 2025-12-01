@@ -24,11 +24,7 @@ describe("link-check", () => {
 
   describe("getSourceFiles", () => {
     it("should return source files from directory", () => {
-      vi.spyOn(fs, "readdirSync").mockReturnValue([
-        "file.md",
-        "file.astro",
-        "file.txt",
-      ] as any);
+      vi.spyOn(fs, "readdirSync").mockReturnValue(["file.md", "file.astro", "file.txt"] as any);
       vi.spyOn(fs, "statSync").mockReturnValue({
         isDirectory: () => false,
       } as any);
@@ -43,8 +39,7 @@ describe("link-check", () => {
 
   describe("extractLinks", () => {
     it("should extract Markdown links", () => {
-      const content =
-        "[text](https://example.com) and [another](http://test.com)";
+      const content = "[text](https://example.com) and [another](http://test.com)";
       const result = extractLinks(content);
 
       expect(result).toEqual(["https://example.com", "http://test.com"]);

@@ -123,9 +123,7 @@ const { headings } = Astro.props;
       link.addEventListener("click", (e) => {
         e.preventDefault();
         const targetId = link.getAttribute("href")?.slice(1);
-        const targetElement = targetId
-          ? document.getElementById(targetId)
-          : null;
+        const targetElement = targetId ? document.getElementById(targetId) : null;
 
         if (targetElement) {
           targetElement.scrollIntoView({
@@ -158,10 +156,7 @@ const { headings } = Astro.props;
       });
     };
 
-    const observer = new IntersectionObserver(
-      observerCallback,
-      observerOptions
-    );
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
 
     document.querySelectorAll("h2[id], h3[id]").forEach((heading) => {
       observer.observe(heading);

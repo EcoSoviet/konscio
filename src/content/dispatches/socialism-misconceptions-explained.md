@@ -6,8 +6,7 @@ description: "A guide to the most persistent myths about socialism, from propert
 excerpt: "People often think socialism wants to abolish toothbrushes and ban small businesses. These myths survive because they protect the interests of those who benefit from confusion. This article clears the fog around what socialism actually proposes — and why."
 image: /images/socialism-misconceptions.jpg
 categories: ["Theory", "Analysis"]
-tags:
-  ["Socialism", "Eco-Socialism", "Property", "Democracy", "Political Theory"]
+tags: ["Socialism", "Eco-Socialism", "Property", "Democracy", "Political Theory"]
 ---
 
 # What Socialism Actually Says About Property – And Why the Myths Persist

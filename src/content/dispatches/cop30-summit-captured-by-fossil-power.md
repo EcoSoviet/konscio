@@ -6,8 +6,7 @@ description: "How COP30 hosted a record fossil lobby, avoided naming a phase-out
 excerpt: "COP30 gathered the world to chart a liveable future yet admitted nearly fifteen hundred fossil lobbyists and delivered a declaration that refused to commit to phasing out fossil fuels. This article examines what that means for climate justice, democracy, and the Global South."
 image: /images/cop30.webp
 categories: ["Analysis", "Climate Politics"]
-tags:
-  ["COP30", "Fossil Fuels", "Climate Justice", "Eco-Socialism", "Global South"]
+tags: ["COP30", "Fossil Fuels", "Climate Justice", "Eco-Socialism", "Global South"]
 ---
 
 # COP30: A Summit Captured by Fossil Power

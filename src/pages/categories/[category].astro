@@ -11,10 +11,7 @@ export async function getStaticPaths() {
     eager: true,
   });
 
-  const allPosts = [
-    ...Object.values(mdPostsGlob),
-    ...Object.values(mdxPostsGlob),
-  ]
+  const allPosts = [...Object.values(mdPostsGlob), ...Object.values(mdxPostsGlob)]
     .filter((post: any) => !post.frontmatter.draft)
     .filter((post: any) => {
       const rawDate = post.frontmatter.datePublished;
@@ -38,9 +35,7 @@ export async function getStaticPaths() {
     const categorySlug = category.toLowerCase().replace(/[/\s]+/g, "-");
     const postsInCategory = allPosts
       .filter(
-        (post: any) =>
-          post.frontmatter.categories &&
-          post.frontmatter.categories.includes(category)
+        (post: any) => post.frontmatter.categories && post.frontmatter.categories.includes(category)
       )
       .sort(
         (a: any, b: any) =>
@@ -63,10 +58,7 @@ const { category, posts } = Astro.props;
 const base = config.baseUrl;
 ---
 
-<Layout
-  title={`${category} - The Red Soil`}
-  description={`All posts in the ${category} category`}
->
+<Layout title={`${category} - The Red Soil`} description={`All posts in the ${category} category`}>
   <div class="category-page">
     <header class="page-header">
       <h1 class="page-title">{category}</h1>
@@ -81,30 +73,22 @@ const base = config.baseUrl;
         posts.map((post: any) => (
           <article class="post-item">
             <h2 class="post-title">
-              <a
-                href={`${base}dispatches/${slugifyPath(post.file)}`}
-                data-astro-prefetch
-              >
+              <a href={`${base}dispatches/${slugifyPath(post.file)}`} data-astro-prefetch>
                 {post.frontmatter.title}
               </a>
             </h2>
 
             <div class="post-meta">
               <time class="post-date" datetime={post.frontmatter.datePublished}>
-                {new Date(post.frontmatter.datePublished).toLocaleDateString(
-                  "en-GB",
-                  {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  }
-                )}
+                {new Date(post.frontmatter.datePublished).toLocaleDateString("en-GB", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
               </time>
             </div>
 
-            {post.frontmatter.excerpt && (
-              <p class="post-excerpt">{post.frontmatter.excerpt}</p>
-            )}
+            {post.frontmatter.excerpt && <p class="post-excerpt">{post.frontmatter.excerpt}</p>}
 
             <a
               href={`${base}dispatches/${slugifyPath(post.file)}`}
