@@ -11,26 +11,7 @@ import { remarkReadingTime } from "./plugins/remark-reading-time.ts";
 import { config } from "./src/config";
 
 const fontaineOptions = {
-  fallbacks: [
-    "Oswald Variable",
-    "Oswald",
-    "Work Sans Variable",
-    "Work Sans",
-    "JetBrains Mono Variable",
-    "JetBrains Mono",
-    "system-ui",
-    "Segoe UI",
-    "Roboto",
-    "Helvetica Neue",
-    "Arial",
-    "sans-serif",
-    "SFMono-Regular",
-    "Monaco",
-    "Consolas",
-    "Liberation Mono",
-    "Courier New",
-    "monospace",
-  ],
+  fallbacks: ["system-ui", "sans-serif", "monospace"],
 };
 
 export default defineConfig({

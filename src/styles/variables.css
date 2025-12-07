@@ -52,15 +52,10 @@
   --color-border: var(--color-medium-gray);
   --color-accent: var(--color-accent-red);
 
-  --font-heading-primary:
-    "Oswald Variable", "Oswald", "Bebas Neue", "Impact", "Arial Narrow", "Helvetica Neue",
-    sans-serif;
-  --font-heading-secondary:
-    "Work Sans Variable", "Work Sans", "Helvetica Neue", "Segoe UI", "Roboto", "Arial", sans-serif;
-  --font-body: "Work Sans", "Helvetica Neue", "Segoe UI", "Roboto", "Arial", sans-serif;
-  --font-mono:
-    "JetBrains Mono Variable", "JetBrains Mono", "Fira Code", "Consolas", "Liberation Mono",
-    "Courier New", monospace;
+  --font-heading-primary: "Oswald Variable", sans-serif;
+  --font-heading-secondary: "Work Sans Variable", sans-serif;
+  --font-body: "Work Sans Variable", sans-serif;
+  --font-mono: "JetBrains Mono Variable", monospace;
 
   --grid-unit: 8px;
   --max-width: 1200px;
