@@ -9,8 +9,6 @@ categories: ["Theory", "Analysis"]
 tags: ["Socialism", "Eco-Socialism", "Property", "Democracy", "Political Theory"]
 ---
 
-# What Socialism Actually Says About Property – And Why the Myths Persist
-
 Say the word _socialism_ and you will often get a fearful response: people imagine a world where the state confiscates homes, bans personal possessions, crushes innovation, and forces everyone into grey conformity. These images survive because they are politically useful—they turn a critique of concentrated power into a caricature.
 
 But socialism is not a war on everyday life. It is a challenge to economic domination.

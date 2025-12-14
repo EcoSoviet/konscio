@@ -9,8 +9,6 @@ categories: ["Editorial"]
 tags: ["Eco-Socialism", "Decolonisation", "Climate Justice"]
 ---
 
-# Manifesto: For People and Planet
-
 Capitalism, colonialism, and climate collapse are not separate crises—they are different faces of one system of domination. The same logic that once extracted from the Global South now drives ecological ruin across the planet.
 
 **The Red Soil** exists to challenge that system. It is not a neutral platform. It is a form of critical resistance.

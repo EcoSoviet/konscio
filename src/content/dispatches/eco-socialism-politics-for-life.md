@@ -9,8 +9,6 @@ categories: ["Analysis", "Theory"]
 tags: ["Eco-Socialism", "Democratic Socialism", "Decolonisation", "Climate Justice"]
 ---
 
-# Eco-socialism: A Politics for Life
-
 Capitalism has pushed the planet to its limits: it fuses ecological destruction and inequality into one machinery of collapse. The same system that poisoned rivers for profit also carved up the Global South for minerals, labour, and land. These are not separate crises. They are a single structure of extraction, updated for the 21st century.
 
 Eco-socialism meets the scale of that emergency. It links human freedom with ecological survival, arguing that a liveable world depends on dismantling the economic logic that turns life into profit.

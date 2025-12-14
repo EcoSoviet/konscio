@@ -9,8 +9,6 @@ tags: ["Green Capitalism", "Climate Politics", "Just Transition", "Extractivism"
 image: /images/slow-violence-green-capitalism.webp
 ---
 
-# The Slow Violence of Green Capitalism
-
 A green future is being packaged for public consumption: governments speak about clean transitions, corporations pledge net zero, and advertisements cycle through forests, wind turbines, and electric cars presented as symbols of hope. The official narrative is straightforward—technology will correct the damage whilst the economic machine continues on its current trajectory.
 
 Walk through the supply chains and the illusion unravels. New mines are sunk into old colonial frontiers. Forests are converted into carbon credits. Wealthy nations approve new drilling while telling others to tighten their belts. The climate crisis becomes a growth market. What is sold as transformation is the same extractive order, repainted in eco-friendly colours.

@@ -12,8 +12,6 @@ tags: ["Green Colonialism", "Cobalt", "Climate Justice", "Africa"]
 > "Africa is a paradox which illustrates and highlights neocolonialism. Her earth is rich, yet the products that come from above and below the soil enrich not Africans but others."
 > — Kwame Nkrumah, Neo‑Colonialism, the Last Stage of Imperialism (1965)
 
-# Cobalt and the Congo: The Dark Side of the Clean Energy Economy
-
 A child slides a plastic basin down a muddy slope to the mouth of a mine shaft. A man lifts the basin, shovels a fistful of wet ore into it, and passes it along. The tunnel shudders. Someone shouts. No sirens sound. No inspector appears. The ore will be sold to a trader who moves it through a chain of middlemen before it reaches a refinery on another continent. Somewhere else an electric car glides silently past a showroom, its owner proud of a small climate virtue. The battery inside that car carries a human story that rarely makes it into press statements.
 
 This kind of scene is common in the copper-cobalt belt of southeastern Congo. It is raw, brutal, and ordinary. People work because alternatives have been stripped from them, and the global economy turns their labour into a resource for others. The promised "green" future looks different when you follow the metals that make it possible. If the world is serious about justice, it must stop pretending that the transition is only a technical challenge. It is a political one.

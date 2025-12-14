@@ -9,8 +9,6 @@ categories: ["Analysis", "Climate Politics"]
 tags: ["COP30", "Fossil Fuels", "Climate Justice", "Eco-Socialism", "Global South"]
 ---
 
-# COP30: A Summit Captured by Fossil Power
-
 COP30 was presented as the moment the world would confront reality; it was hosted in the Amazon, wrapped in language about planetary urgency, and framed as a turning point for a liveable future. Instead it became the clearest example yet of how climate diplomacy has lost its anchor. The summit admitted almost fifteen hundred fossil fuel lobbyists, more than the delegations of many nations most exposed to climate breakdown, and the final declaration avoided the words that matter. It refused to commit to a phase-out of fossil fuels and refused to name the root of the crisis.
 
 This is not a failure of drafting, nor a technical hiccup. It is a political decision shaped by the power of an industry that has learned how to write the rules whilst pretending to follow them.
