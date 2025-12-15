@@ -1,7 +1,7 @@
 ---
 title: "I Am Not Innocent"
 author: "Timothy Brits"
-datePublished: 2025-12-14
+datePublished: 2025-12-15
 excerpt: "In South Africa, whiteness is not a neutral identity but an inherited position shaped by colonialism and apartheid. This essay refuses innocence and examines responsibility, racism, and political commitment from within that inheritance."
 description: "A personal editorial on being white and Afrikaans in South Africa, confronting inherited advantage, the persistence of racism, and the limits of reconciliation without material justice."
 categories: ["Editorial"]
