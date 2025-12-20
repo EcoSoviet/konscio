@@ -45,7 +45,7 @@
     "remixicon": "^4.7.0",
     "schema-dts": "^1.1.5",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.15"
+    "vitest": "^4.0.16"
   },
   "engines": {
     "node": ">=22.21.1"
