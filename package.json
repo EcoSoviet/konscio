@@ -38,7 +38,7 @@
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-organize-imports": "^4.3.0",
     "prettier-plugin-packagejson": "^2.5.20",
-    "purgecss": "^7.0.2",
+    "purgecss": "^8.0.0",
     "reading-time": "^1.5.0",
     "remark-gfm": "^4.0.1",
     "remark-smartypants": "^3.0.2",
